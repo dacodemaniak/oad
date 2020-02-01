@@ -1,0 +1,25 @@
+@import "./variables.scss";
+
+#loader {
+    &.outer-loader {
+        background-color: rgba($primary-color, .5);
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+
+        .inner-loader {
+            position: relative;
+            height: 6.25em;
+            width: 6.25em;
+            top: 50%;
+            transform: translateY(-50%);
+            margin: 0 auto;
+
+            img {
+                height: inherit;
+                width: inherit;
+            }
+        }
+    }
+}
