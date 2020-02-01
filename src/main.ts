@@ -1,3 +1,4 @@
+import { MenuController } from './modules/menu/menu-controller';
 import * as $ from 'jquery';
 
 
@@ -11,6 +12,9 @@ import './scss/main.scss';
 export class Main {
     public constructor() {
         console.log('OAD app is running!');
+
+        // Make a menu instance
+        const mainMenu: MenuController = new MenuController();
     }
 }
 
