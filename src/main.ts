@@ -1,3 +1,5 @@
+import { HomeModule } from './modules/home/home.module';
+import { Router } from './core/modules/router/router';
 import { SplashController } from './modules/splash/splash-controller';
 import { Loader } from './core/modules/loader/loader';
 import { MenuController } from './modules/menu/menu-controller';
@@ -5,6 +7,7 @@ import * as $ from 'jquery';
 
 
 import './scss/main.scss';
+import { Route } from './core/modules/router/route';
 
 /**
  * @author Laura Jannot - Feb 2020 - laura.jeannot@gmail.com
@@ -13,16 +16,25 @@ import './scss/main.scss';
  */
 export class Main {
     public constructor() {
+        
+        console.log('OAD app is running!');
+        
         const loader: Loader = new Loader();
         loader.show();
-        console.log('OAD app is running!');
+        
 
         // Make a menu instance
         const mainMenu: MenuController = new MenuController();
+        mainMenu.show();
 
-        // Load splash screen
-        const splash: SplashController = new SplashController();
-        
+        // Make a footer instance
+
+        // Instanciate the router
+        const router: Router = new Router();
+        router.add(
+            new Route('/', HomeModule)
+        );
+
         loader.dismiss();
     }
 }
