@@ -9,7 +9,7 @@ export class SplashController extends Controller {
         super();
 
         Controller.rel = 'content';
-        Controller.target = 'homeIntro';
+        Controller.target = 'splashScreen';
 
         this.dock = $(`[data-rel="${Controller.rel}"][data-target="${Controller.target}"]`);
         this.viewSrc = 'splash';

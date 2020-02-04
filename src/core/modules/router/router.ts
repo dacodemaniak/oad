@@ -1,5 +1,6 @@
-import { ClassFactory } from './../../services/factory/class-factory';
 import { IModule } from './../module-interface';
+import { ClassFactory } from './../../services/factory/class-factory';
+import { IService } from '../../services/service-interface';
 import * as $ from 'jquery';
 
 import { Route } from './route';
@@ -41,8 +42,8 @@ export class Router {
             // Charge le module concerné...
             console.log('Instancie : ' + route.module);
 
-            const loader: ClassFactory<IModule<any>> = new ClassFactory<IModule<any>>();
-            const module: any = loader.getInstance(route.module);
+            const loader: ClassFactory<IModule> = new ClassFactory<IModule>();
+            const module: IModule = loader.getInstance(<IService<IModule>> route.module);
         }
     }
 }

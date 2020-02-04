@@ -1,6 +1,7 @@
+import { IModule } from './../module-interface';
 export class Route {
     private _path: string;
-    private _module: any;
+    private _module: IModule;
     private _canActivate: boolean;
 
     public constructor(path: string, module: any, canActivate: boolean = true) {
@@ -13,7 +14,7 @@ export class Route {
         return this._path;
     }
 
-    public get module(): any {
+    public get module(): IModule {
         return this._module;
     }
 }

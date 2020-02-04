@@ -15,6 +15,10 @@ import { Route } from './core/modules/router/route';
  *  Main entry for OAD App
  */
 export class Main {
+    private controllers: any = {
+        menu: new MenuController(),
+    };
+
     public constructor() {
         
         console.log('OAD app is running!');
@@ -22,10 +26,9 @@ export class Main {
         const loader: Loader = new Loader();
         loader.show();
         
-
-        // Make a menu instance
-        const mainMenu: MenuController = new MenuController();
-        mainMenu.show();
+        for (let controller in this.controllers) {
+            this.controllers[controller].show();
+        }
 
         // Make a footer instance
 

@@ -28,7 +28,6 @@ export abstract class Controller {
             let filePath: string;
 
             if (!file) {
-                path.resolve
                 filePath = './assets/views/menu.view.html';
             } else {
                 filePath = `./assets/views/${file}.view.html`;
