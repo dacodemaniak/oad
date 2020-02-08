@@ -1,0 +1,27 @@
+@import "./variables.scss";
+
+#main-header {
+    background-color: $primary-color;
+    nav {
+        &.navbar {
+            &.navbar-light {
+                &.bg-light {
+                    background-color: inherit!important;
+                    ul {
+                        li {
+                            &.nav-item {
+                                color: $secondary-color;
+                                a {
+                                    color: inherit;
+                                    &.active {
+                                        font-weight: bold;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                } 
+            }
+        }
+    }    
+}

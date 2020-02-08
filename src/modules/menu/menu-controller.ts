@@ -2,6 +2,8 @@ import * as $ from 'jquery';
 
 import { Controller } from './../../core/controller';
 
+import './../../scss/menu.scss';
+
 export class MenuController extends Controller {
 
     public constructor() {
