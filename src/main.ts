@@ -1,8 +1,9 @@
+import { FooterController } from './shared/controllers/footer/footer-controller';
 import { HomeModule } from './modules/home/home.module';
 import { Router } from './core/modules/router/router';
-import { SplashController } from './modules/splash/splash-controller';
+import { SplashController } from './modules/home/splash/splash-controller';
 import { Loader } from './core/modules/loader/loader';
-import { MenuController } from './modules/menu/menu-controller';
+import { MenuController } from './shared/controllers/menu/menu-controller';
 import * as $ from 'jquery';
 
 
@@ -17,6 +18,7 @@ import { Route } from './core/modules/router/route';
 export class Main {
     private controllers: any = {
         menu: new MenuController(),
+        footer: new FooterController()
     };
 
     public constructor() {
@@ -29,8 +31,6 @@ export class Main {
         for (let controller in this.controllers) {
             this.controllers[controller].show();
         }
-
-        // Make a footer instance
 
         // Instanciate the router
         const router: Router = new Router();

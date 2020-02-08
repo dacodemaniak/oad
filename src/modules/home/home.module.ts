@@ -1,5 +1,5 @@
 import { IModule } from '../../core/modules/module-interface';
-import { SplashController } from './../splash/splash-controller';
+import { SplashController } from './splash/splash-controller';
 
 export class HomeModule implements IModule {
     private controllers: any = {
