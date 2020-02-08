@@ -1,14 +1,12 @@
 import { IModule } from '../../core/modules/module-interface';
-import { SplashController } from './splash/splash-controller';
+import { Module } from './../../core/modules/module';
 import { MenuController } from './../../shared/controllers/menu/menu-controller';
 import { FooterController } from './../../shared/controllers/footer/footer-controller';
-import { Module } from './../../core/modules/module';
 
-export class HomeModule extends Module implements IModule {
+export class EnvironmentModule extends Module implements IModule {
     private controllers: any = {
         menu: new MenuController(),
         footer: new FooterController(),
-        splash: new SplashController()
     };    
     
     public constructor(...args: any[]) {

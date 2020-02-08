@@ -1,14 +1,13 @@
-import { FooterController } from './shared/controllers/footer/footer-controller';
 import { HomeModule } from './modules/home/home.module';
 import { Router } from './core/modules/router/router';
 import { SplashController } from './modules/home/splash/splash-controller';
 import { Loader } from './core/modules/loader/loader';
-import { MenuController } from './shared/controllers/menu/menu-controller';
 import * as $ from 'jquery';
 
 
 import './scss/main.scss';
 import { Route } from './core/modules/router/route';
+import { EnvironmentModule } from './modules/environment/environment.module';
 
 /**
  * @author Laura Jannot - Feb 2020 - laura.jeannot@gmail.com
@@ -17,8 +16,6 @@ import { Route } from './core/modules/router/route';
  */
 export class Main {
     private controllers: any = {
-        menu: new MenuController(),
-        footer: new FooterController()
     };
 
     public constructor() {
@@ -34,9 +31,13 @@ export class Main {
 
         // Instanciate the router
         const router: Router = new Router();
-        router.add(
-            new Route('/', HomeModule)
-        );
+        router
+            .add(
+                new Route('/', HomeModule)
+            )
+            .add(
+                new Route('environnement', EnvironmentModule)
+            );
 
         loader.dismiss();
     }
