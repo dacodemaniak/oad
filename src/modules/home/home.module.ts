@@ -1,3 +1,4 @@
+import { TimelineController } from './../environment/controllers/timeline-controller';
 import { IModule } from '../../core/modules/module-interface';
 import { SplashController } from './splash/splash-controller';
 import { MenuController } from './../../shared/controllers/menu/menu-controller';
@@ -8,7 +9,8 @@ export class HomeModule extends Module implements IModule {
     private controllers: any = {
         menu: new MenuController(),
         footer: new FooterController(),
-        splash: new SplashController()
+        splash: new SplashController(),
+        timeline: new TimelineController(),
     };    
     
     public constructor(...args: any[]) {
