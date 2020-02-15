@@ -13,13 +13,18 @@ export abstract class Controller {
 
     public constructor(...args: any[]) {}
 
-    public show(): void {
-        if (this.dock) {
-            this.loadView(this.viewSrc).then((view: JQuery) => {
-                this.view = view;
-                this.dock.append(this.view);
-            });
-        }
+    public show(): Promise<void> {
+        return new Promise<void>((resolve) => {
+            if (this.dock) {
+                this.loadView(this.viewSrc).then((view: JQuery) => {
+                    this.view = view;
+                    this.dock.append(this.view);
+                    resolve();
+                });
+            } else {
+                resolve();
+            }
+        });
     }
 
     protected loadView(file?: string): Promise<JQuery<HTMLElement>> {

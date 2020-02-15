@@ -31,6 +31,14 @@ module.exports = {
             { test: /\.woff2$/, use: 'raw-loader' },
             { test: /\.woff$/, use: 'raw-loader' },
             {
+                test: /\.(png)$/i,
+                use: [
+                    {
+                        loader: 'file-loader'
+                    }
+                ]
+            },
+            {
                 test: /\.(sa|sc|c)ss$/,
                 use: [{
                         // After all CSS loaders we use plugin to do his work.

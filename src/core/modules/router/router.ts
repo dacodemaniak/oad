@@ -40,8 +40,6 @@ export class Router {
             module = new Error(); // 404 module...
         } else {
             // Charge le module concerné...
-            console.log('Instancie : ' + route.module);
-
             const loader: ClassFactory<IModule> = new ClassFactory<IModule>();
             const module: IModule = loader.getInstance(<IService<IModule>> route.module);
         }

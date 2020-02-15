@@ -1,4 +1,4 @@
 export interface GeoCenterInterface {
-    lat: number;
-    lng: number;
+    lat?: number;
+    lng?: number;
 }

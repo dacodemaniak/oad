@@ -6,13 +6,14 @@ import {
 
 import * as $ from 'jquery';
 import * as L from 'leaflet';
+import { Feature, Geometry } from 'geojson';
 
 export class LeafletService {
     private HTMLMapElement: string;
 
     private map: L.Map;
 
-    private geoCenter: GeoCenterInterface;
+    private geoCenter: GeoCenterInterface = {};
     private _layerZoom: number = 7;
 
     private _jsonFile: string;
@@ -43,7 +44,9 @@ export class LeafletService {
                     geoData,
                     {
                         style: (feature: any): any => {},
-                        onEachFeature: (feature: any, layer: any): any => {},
+                        onEachFeature: (feature: Feature<Geometry, any>, layer: L.Layer): void => {
+
+                        },
                     }
                 );
                 // Add the brand new layer
@@ -57,12 +60,15 @@ export class LeafletService {
     }
 
     private _create(): void {
+        console.log(`Create with center on : ${this.geoCenter.lat} / ${this.geoCenter.lng} and ${this._layerZoom} factor`);
         this.map = new L.Map(
-            this.HTMLMapElement,
-            {
-                center: new L.LatLng(this.geoCenter.lat, this.geoCenter.lng),
-                zoom: this._layerZoom,
-            }
+            this.HTMLMapElement
+        ).setView(
+            [
+                this.geoCenter.lat, 
+                this.geoCenter.lng
+            ],
+            this._layerZoom
         );
 
         const tileLayer: any = new L.TileLayer(
