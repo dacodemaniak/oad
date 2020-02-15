@@ -1,8 +1,8 @@
-import { Controller } from './../../../core/controller';
+import { Controller } from '../../../../core/controller';
 
 import * as $ from 'jquery';
 
-import './../../../scss/splash.scss';
+import './../../../../scss/splash.scss';
 
 export class SplashController extends Controller {
     public constructor() {

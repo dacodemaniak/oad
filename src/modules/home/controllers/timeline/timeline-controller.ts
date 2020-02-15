@@ -1,8 +1,8 @@
-import { Controller } from './../../../core/controller';
+import { Controller } from '../../../../core/controller';
 
 import * as $ from 'jquery';
 
-import './../../../scss/timeliner.scss';
+import './../../../../scss/timeliner.scss';
 
 export class TimelineController extends Controller {
     public constructor() {

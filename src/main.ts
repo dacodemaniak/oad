@@ -1,6 +1,6 @@
 import { HomeModule } from './modules/home/home.module';
 import { Router } from './core/modules/router/router';
-import { SplashController } from './modules/home/splash/splash-controller';
+import { SplashController } from './modules/home/controllers/splash/splash-controller';
 import { Loader } from './core/modules/loader/loader';
 import * as $ from 'jquery';
 
