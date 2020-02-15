@@ -18,9 +18,10 @@
   "author": "@laurajannot",
   "license": "ISC",
   "devDependencies": {
+    "@types/chart.js": "^2.9.11",
+    "@types/geojson": "^7946.0.7",
     "@types/jquery": "^3.3.31",
     "@types/leaflet": "^1.5.8",
-    "@types/chart.js": "^2.9.11",
     "babel-cli": "^6.26",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
