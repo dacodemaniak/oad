@@ -16,7 +16,7 @@ export class Router {
         // Définit le listener sur les routes
         $(window).on(
             'load hashchange',
-            (event: any): void => router.getRoute()
+            (event: any): void => router.getRoute(event)
         );
     }
 
@@ -25,23 +25,30 @@ export class Router {
         return this;
     }
 
-    private getRoute(): void {
+    private getRoute(event: any): void {
+        console.log('hash ' + location.hash);
+
         const url = location.hash.slice(1) || '/';
 
         console.log('URL à charger [' + url + ']');
 
-        // On va essayer de chercher si dans les routes, on a quelque chose qui correspond
-        const route = this.routes.get(url);
+        if (url !== '.') {
+            // On va essayer de chercher si dans les routes, on a quelque chose qui correspond
+            const route = this.routes.get(url);
 
-        // Instance d'un contrôleur vide
-        let module = {};
+            // Instance d'un contrôleur vide
+            let module = {};
         
-        if (!route) {
-            module = new Error(); // 404 module...
+            if (!route) {
+                module = new Error(); // 404 module...
+            } else {
+                // Charge le module concerné...
+                const loader: ClassFactory<IModule> = new ClassFactory<IModule>();
+                const module: IModule = loader.getInstance(<IService<IModule>> route.module);
+            }
         } else {
-            // Charge le module concerné...
-            const loader: ClassFactory<IModule> = new ClassFactory<IModule>();
-            const module: IModule = loader.getInstance(<IService<IModule>> route.module);
+            event.preventDefault();
         }
+
     }
 }
