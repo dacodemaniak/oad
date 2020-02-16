@@ -1,3 +1,4 @@
+import { ChartsController } from './controllers/charts/chart';
 import { ToolbarController } from './controllers/toolbar/toolbar';
 import { ProtectedSpacesController } from './controllers/protected-spaces/protected-spaces';
 import { IModule } from '../../core/modules/module-interface';
@@ -12,6 +13,7 @@ export class EnvironmentModule extends Module implements IModule {
         footer: new FooterController(),
         toolbar: new ToolbarController(),
         protectedSpaces: new ProtectedSpacesController(),
+        charts: new ChartsController(),
         
     };    
     
