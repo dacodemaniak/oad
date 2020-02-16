@@ -1,0 +1,28 @@
+@import "./variables.scss";
+
+.intro--question {
+    padding: 5em;
+    background-color: lighten($primary-color, 15);
+    blockquote {
+        margin-left: 10em;
+        padding-left: 3em;
+        width: 40%;
+        border-left: solid .25em lighten($primary-color, 15%);
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+}
+.intro--container {
+    height: 500px;
+    padding: 5em;
+    border-bottom: solid .5em lighten($primary-color, 15%);
+
+    article {
+        p {
+            padding: 3em;
+            text-align: justify;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+    }
+}

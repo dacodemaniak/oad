@@ -1,0 +1,17 @@
+@import "./variables.scss";
+
+footer {
+    &#main-footer {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        background-color: $primary-color;
+        color: $secondary-color;
+
+        a {
+            color: inherit;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

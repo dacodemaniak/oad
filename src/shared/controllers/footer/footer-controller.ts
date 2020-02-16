@@ -2,7 +2,7 @@ import * as $ from 'jquery';
 
 import { Controller } from '../../../core/controller';
 
-import './../../../scss/menu.scss';
+import './../../../scss/footer.scss';
 
 export class FooterController extends Controller {
 
