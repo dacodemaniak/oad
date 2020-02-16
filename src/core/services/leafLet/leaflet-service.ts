@@ -12,6 +12,7 @@ export class LeafletService {
     private HTMLMapElement: string;
 
     private map: L.Map;
+    private layer: L.Layer;
 
     private geoCenter: GeoCenterInterface = {};
     private _layerZoom: number = 7;
@@ -40,7 +41,7 @@ export class LeafletService {
         $.getJSON(
             this._jsonFile,
             (geoData) => {
-                let layer: L.GeoJSON<any> = new L.GeoJSON(
+                this.layer = new L.GeoJSON(
                     geoData,
                     {
                         style: (feature: any): any => {},
@@ -50,9 +51,17 @@ export class LeafletService {
                     }
                 );
                 // Add the brand new layer
-                this.map.addLayer(layer);
+                this.map.addLayer(this.layer);
             }
         )
+    }
+
+    public removeLayer(): void {
+        this.map.removeLayer(this.layer);
+        this.map.off();
+        this.map.remove();
+        
+        $('#' + this.HTMLMapElement).children().remove();
     }
 
     public set layerZoom(zoom: number) {

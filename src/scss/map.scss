@@ -2,4 +2,14 @@ div {
     &.map {
         height: 25em;
     }
+    &#leaflet--toolbar {
+        height: 3em;
+        text-align: center;
+        span {
+            &.title {
+                font-weight: bold;
+                font-size: 1.2em;
+            }
+        }
+    }
 }
