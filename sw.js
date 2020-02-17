@@ -2,19 +2,9 @@
 
 const CACHE = "pwabuilder-precache";
 const precacheFiles = [
-    './assets/css/custom.css',
   './assets/css/leaflet.css',
   './assets/css/style.css',
-  './assets/views/charts.view.html',
-  './assets/views/intro.view.html',
-  './assets/views/leaflet-loader.view.html',
-  './assets/views/main-footer.view.html',
-  './assets/views/main-menu.view.html',
-  './assets/views/protected-spaces.view.html',
-  './assets/views/splash.view.html',
-  './assets/views/timeline.view.html',
-  './app.chunk.js',
-  './app.js'
+  './assets/images/logoisthia-1.jpg'
 ];
 
 self.addEventListener("install", function (event) {

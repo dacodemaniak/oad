@@ -2,7 +2,7 @@
 	"name" : "Outil d'Aide à la Décision",
 	"short_name" : "oadgcr",
 	"description" : "Outil d'aide à la décision comparatif entre les territoires de Guyane et du Costa Rica",
-	"start_url" : "https://oadgcr.firebaseapp.com",
+	"start_url" : "https://oadgcr.firebaseapp.com/index.html",
 	"lang" : "French",
 	"orientation" : "portrait",
 	"display" : "standalone"
