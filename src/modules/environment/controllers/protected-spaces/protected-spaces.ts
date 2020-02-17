@@ -77,23 +77,27 @@ export class ProtectedSpacesController extends Controller {
         // Change span title
         $('span.title').html(element.attr('data-title'));
 
-        const geoFileRoot: string = element.attr('data-rel');
+        // Check if data-switch
+        if (element.attr('data-switch') !== undefined) {
+            console.log(`Have to switch to infography ${element.attr('data-switch')}`);
+        } else {
+            const geoFileRoot: string = element.attr('data-rel');
 
-        this.leafletC.removeLayer();
-        this.leafletG.removeLayer();
-
-        // Sets and loads new layers
-        this.leafletC = new LeafletService('c-layout');
-        this.leafletC.setGeoCenter(this.geoCenterCostaRica.lat, this.geoCenterCostaRica.lng);
-
-        this.leafletG = new LeafletService('g-layout');
-        this.leafletG.setGeoCenter(this.geoCenterGuyana.lat, this.geoCenterGuyana.lng);
-
-        this.leafletC.jsonFile = `${geoFileRoot}c`;
-        this.leafletG.jsonFile = `${geoFileRoot}g`;
-
-        this.leafletC.show();
-        this.leafletG.show();
-
+            this.leafletC.removeLayer();
+            this.leafletG.removeLayer();
+    
+            // Sets and loads new layers
+            this.leafletC = new LeafletService('c-layout');
+            this.leafletC.setGeoCenter(this.geoCenterCostaRica.lat, this.geoCenterCostaRica.lng);
+    
+            this.leafletG = new LeafletService('g-layout');
+            this.leafletG.setGeoCenter(this.geoCenterGuyana.lat, this.geoCenterGuyana.lng);
+    
+            this.leafletC.jsonFile = `${geoFileRoot}c`;
+            this.leafletG.jsonFile = `${geoFileRoot}g`;
+    
+            this.leafletC.show();
+            this.leafletG.show();
+        }
     }
 }
