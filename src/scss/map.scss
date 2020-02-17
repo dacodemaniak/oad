@@ -1,8 +1,40 @@
+@import "./variables.scss";
+
 div {
     &.map {
         height: 25em;
         &.hidden {
             display: none;
+        }
+
+        figure {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            figcaption {
+                position: absolute;
+                width: 100%;
+                top: 99%;
+                color: $dark-color;
+                background-color: rgba(lighten($primary-color, 20%), .7);
+                padding: 5em;
+                transition: all 2s 0s ease-in-out;
+
+                span {
+                    position: relative;
+                    bottom: 1px;
+                    font-size: .5em;
+                    line-height: .5em;
+                    vertical-align:super;
+                    text-decoration:none;                    
+                }
+            }
+            &:hover {
+                figcaption {
+                    top: 0;
+                }
+            }
         }
     }
     &#leaflet--toolbar {

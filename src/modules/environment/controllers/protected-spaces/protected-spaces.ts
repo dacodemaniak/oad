@@ -80,7 +80,14 @@ export class ProtectedSpacesController extends Controller {
         // Check if data-switch
         if (element.attr('data-switch') !== undefined) {
             console.log(`Have to switch to infography ${element.attr('data-switch')}`);
+
+            // Hide all leaflets and show all infographies
+            $('.leaflet').addClass('hidden');
+            $('.infography').removeClass('hidden');
+
         } else {
+            $('.infography').addClass('hidden');
+            
             const geoFileRoot: string = element.attr('data-rel');
 
             this.leafletC.removeLayer();
@@ -96,6 +103,8 @@ export class ProtectedSpacesController extends Controller {
             this.leafletC.jsonFile = `${geoFileRoot}c`;
             this.leafletG.jsonFile = `${geoFileRoot}g`;
     
+            $('.leaflet').removeClass('hidden');
+
             this.leafletC.show();
             this.leafletG.show();
         }
