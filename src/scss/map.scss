@@ -12,12 +12,17 @@ div {
             height: 100%;
             width: 100%;
             overflow: hidden;
+
+            img {
+                display: block;
+                margin:0 auto;
+            }
             figcaption {
                 position: absolute;
                 width: 100%;
                 top: 99%;
-                color: $dark-color;
-                background-color: rgba(lighten($primary-color, 20%), .7);
+                color: $white-color;
+                background-color: rgba(lighten($primary-color, 20%), .9);
                 padding: 5em;
                 transition: all 2s 0s ease-in-out;
 

@@ -23,18 +23,25 @@ export class ChartsController extends Controller {
         // Sets oiGraph chart
         this.oiGraph.HTMLElement = 'chantiers-orpaillage-illegal';
         this.oiGraph
-            .addLabel('2008')
-            .addLabel('2009')
-            .addLabel('2010')
-            .addLabel('2011')
-            .addLabel('2012')
-            .addLabel('2013');
+            .addLabel('Plantes et Fleurs')
+            .addLabel('Arbres')
+            .addLabel('Poissons')
+            .addLabel('Oiseaux')
+            .addLabel('Reptiles')
+            .addLabel('Amphibiens')
+            .addLabel('Mammifères');
         this.oiGraph.addDataSet(
             {
-                label: 'Evolution des chantiers d\'orpaillage illégale',
-                data: [540, 600, 490, 400, 740, 790],
-                backgroundColor: ['#11c82f']
+                label: 'Guyane',
+                data: [5000, 1200, 500, 700, 160, 65, 180],
+                backgroundColor: ['rgba(8, 244, 4, .8)']
             }
+        ).addDataSet(
+            {
+                label: 'Costa Rica',
+                data: [10000, 1800, 600, 870, 220, 160, 231],
+                backgroundColor: ['rgba(4, 99, 244, .8)']
+            }            
         );
 
         // Sets radar chart

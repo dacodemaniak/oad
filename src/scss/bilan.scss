@@ -1,0 +1,9 @@
+@import './variables.scss';
+
+table {
+    #bilan {
+        th {
+            background-color: lighten($primary-color, 15%);
+        }
+    }
+}

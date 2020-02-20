@@ -1,3 +1,4 @@
+import { BilanController } from './controllers/bilan/bilan';
 import { ChartsController } from './controllers/charts/chart';
 import { ToolbarController } from './controllers/toolbar/toolbar';
 import { ProtectedSpacesController } from './controllers/protected-spaces/protected-spaces';
@@ -14,6 +15,7 @@ export class EnvironmentModule extends Module implements IModule {
         toolbar: new ToolbarController(),
         protectedSpaces: new ProtectedSpacesController(),
         charts: new ChartsController(),
+        bilan: new BilanController()
         
     };    
     

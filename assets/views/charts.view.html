@@ -1,20 +1,98 @@
 <section id="charts" class="col-12" dock data-rel="content" data-target="charts">
     <div class="row">
-        <div class="col-12 col-md-6"></div>
+        <div class="col-12 col-md-3">
+            <p>30% du territoire en Zone Protégée en Guyane ce qui représente <strong>25 060 km<span>2</span></strong></p>
+        </div>
         <div class="col-12 col-md-6">
             <div class="stylechart">
-                <h3>Evolution des chantiers d'orpaillage illégale</h3>
+                <h3>Espèces présentes sur les territoires</h3>
                 <canvas id="chantiers-orpaillage-illegal"></canvas>
             </div>
+        </div>
+        <div class="col-12 col-md-3">
+            <p>30% du territoire en Zone Protégée au Costa Rica ce qui représente <strong>15 330 km<span>2</span></strong></p>
         </div>
     </div>
     <div class="row">
         <div class="col-12 col-md-6">
             <div class="stylechart">
-                <h3>Mise en perspective</h3>
+                <h3>Scoring</h3>
                 <canvas id="radar-chart"></canvas>
             </div>
         </div>
-        <div class="col-12 col-md-6"></div>
+        <div class="col-12 col-md-6">
+            <table class="table table-condensed">
+                <thead>
+                    <tr>
+                        <th colspan="2">
+                            Méthode utilisée pour le scoring
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Indicateur</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            % du territoire en espace protégées
+                        </td>
+                        <td>
+                            <ul>
+                                <li>30% du territoire : 5 points</li>
+                                <li>25% du territoire : 4 points</li> 
+                                <li>20% du territoire : 3 points</li>
+                                <li>15% du territoire : 2 points</li>
+                                <li>10% du territoire : 1 points</li>
+                                <li>5% du territoire : 0.5 points</li> 
+                                <li>0% du territoire : O points</li>   
+                            </ul>
+                   
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Chasse
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Interdite : 5 points</li> 
+                                <li>Légale et réglementer : 2.5 points</li>
+                                <li>Légale et non réglementer : 0 points</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Orpaillage
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Interdit : 5 points</li> 
+                                <li>Légale et réglementer : 2.5 points</li> 
+                                <li>Légale mais aussi illégale : 0 points</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            % du territoire touché par la déforestation 
+                        </td>
+                        <td>
+                            <ul>
+                                <li>0% du territoire : 5 points</li>
+                                <li>5% du territoire : - 1 points</li> 
+                                <li>10% du territoire : - 2 points</li>
+                                <li>15% du territoire : -3 points</li>
+                                <li>20% du territoire : -4 points</li>
+                                <li>25% du territoire : - 5 points</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
     </div>
 </section>
