@@ -1,9 +1,16 @@
 @import './variables.scss';
 
 table {
-    #bilan {
-        th {
-            background-color: lighten($primary-color, 15%);
+    &.table {
+        &.bilan {
+            tbody {
+                tr {
+                    th {
+                        background-color: lighten($primary-color, 15%);
+                        color: $white-color;
+                    }
+                }
+            }
         }
     }
 }
