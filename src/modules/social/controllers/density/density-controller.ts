@@ -28,7 +28,7 @@ export class DensityController extends Controller {
                 
                 // Sets event handlers...
                 this._setHandlers();
-
+                console.log('Resolving population');
                 resolve();
             })
         });
