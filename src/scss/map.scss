@@ -52,4 +52,41 @@ div {
             }
         }
     }
+
+    &#map-legend {
+        margin-top: 5em;
+
+        div {
+            &#fiche {
+                font-weight: bold;
+            }
+
+            &#legende {
+                
+                div {
+                    &.holder {
+                        width: 1.875em;
+                        height: 0.625em;
+                        display: inline-block;
+
+                        &.pop-6000 {
+                            background-color: #d3e8d9;
+                        }
+                        &.pop-40000 {
+                            background-color: #93e6a9;
+                        }
+                        &.pop-80000 {
+                            background-color: #48a160;
+                        }
+                        &.pop-90000 {
+                            background-color: #5eeb7c;
+                        }
+                        &.pop-more {
+                            background-color: #3e854e;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
