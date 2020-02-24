@@ -7,6 +7,7 @@ import { Controller } from '../../../../core/controller';
 import './../../../../scss/map.scss';
 
 export class DensityController extends Controller {
+    private detailsButton: JQuery = $('#guyane-population-details');
 
     public constructor() {
         super();
@@ -100,13 +101,18 @@ export class DensityController extends Controller {
     }
 
     private _setHandlers(): void {
-        $('#environment').on(
+        
+        
+        $('#' + Controller.target).on(
             'click',
-            '.dropdown-item',
+            '#guyane-population-details',
             (event: any): void => {
-                this._loadLayer(event)
+                const populationDetails: JQuery = $('#population-details');
+                const content: string = populationDetails.hasClass('hidden') ? '/\\' : '\\/';
+                $(event.target).text(content);
+                populationDetails.toggleClass('hidden');
             }
-        );
+        )
     }
 
     private _loadLayer(event: any): void {

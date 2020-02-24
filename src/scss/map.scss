@@ -89,4 +89,26 @@ div {
             }
         }
     }
+
+    &#guyane-population {
+        div {
+            &.hover-legend {
+                color: $white-color;
+                background-color: rgba(lighten($primary-color, 20%), .9);
+                padding: 2em;
+                                
+                &.hidden {
+                    display: none;
+                }
+            }
+            &.button {
+                button {
+                    &#guyane-population-details {
+                        display: block;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
 }
