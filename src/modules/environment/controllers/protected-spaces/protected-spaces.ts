@@ -41,8 +41,6 @@ export class ProtectedSpacesController extends Controller {
         this.leafletC.setGeoCenter(this.geoCenterCostaRica.lat, this.geoCenterCostaRica.lng);
         this.leafletC.layerZoom = 7;
         this.leafletC.jsonFile = 'contour_dep-c';
-
-
     }
 
     public show(): Promise<void> {

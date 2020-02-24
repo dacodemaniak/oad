@@ -1,4 +1,5 @@
 import { HomeModule } from './modules/home/home.module';
+import { SocialModule } from './modules/social/social.module';
 import { Router } from './core/modules/router/router';
 import { SplashController } from './modules/home/controllers/splash/splash-controller';
 import { Loader } from './core/modules/loader/loader';
@@ -37,6 +38,9 @@ export class Main {
             )
             .add(
                 new Route('environnement', EnvironmentModule)
+            )
+            .add(
+                new Route('social', SocialModule)
             );
 
         loader.dismiss();
