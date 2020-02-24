@@ -1,3 +1,4 @@
+import { BilanController } from './/controllers/bilan/bilan';
 import { ChartsController } from './controllers/charts/chart';
 import { DensityController } from './controllers/density/density-controller';
 import { IModule } from '../../core/modules/module-interface';
@@ -11,7 +12,8 @@ export class SocialModule extends Module implements IModule {
         menu: new MenuController(),
         footer: new FooterController(),
         density: new DensityController(),
-        charts: new ChartsController()
+        charts: new ChartsController(),
+        bilan: new BilanController(),
     };    
     
     public constructor(...args: any[]) {
