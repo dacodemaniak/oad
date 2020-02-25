@@ -6,6 +6,7 @@ import { Module } from '../../core/modules/module';
 import { MenuController } from '../../shared/controllers/menu/menu-controller';
 import { FooterController } from '../../shared/controllers/footer/footer-controller';
 
+import './../../scss/main.scss';
 
 export class SocialModule extends Module implements IModule {
     private controllers: any = {
