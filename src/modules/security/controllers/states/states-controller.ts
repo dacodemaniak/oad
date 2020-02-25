@@ -13,8 +13,12 @@ import './../../../../scss/map.scss';
 export class StatesController extends Controller {
     private leafletG: LeafletService;
     private leafletC: LeafletService;
+    private vulcanCr: LeafletService;
+    private roadG: LeafletService;
+    private roadCR: LeafletService;
 
     private crCriminalityGraph: ChartService = new ChartService();
+    private gOrpaillage: ChartService = new ChartService();
 
     private readonly geoCenterGuyana: GeoCenterInterface = {
         lat: 3.996,
@@ -47,8 +51,24 @@ export class StatesController extends Controller {
         this.leafletC.layerZoom = 7;
         this.leafletC.jsonFile = 'contour_dep-c';
 
+        // Build vulcans leaflet
+        this.vulcanCr = new LeafletService('volcans-cr');
+        this.vulcanCr.setGeoCenter(this.geoCenterCostaRica.lat, this.geoCenterCostaRica.lng);
+        this.vulcanCr.layerZoom = 7;
+        this.vulcanCr.jsonFile = 'volcan-cr';
+
+        // Roads
+        this.roadG = new LeafletService('road-g');
+        this.roadG.setGeoCenter(this.geoCenterGuyana.lat, this.geoCenterGuyana.lng);
+        this.roadG.layerZoom = 7;
+        this.roadG.jsonFile = 'route-g';
+
+        this.roadCR = new LeafletService('road-cr');
+        this.roadCR.setGeoCenter(this.geoCenterCostaRica.lat, this.geoCenterCostaRica.lng);
+        this.roadCR.layerZoom = 7;
+        this.roadCR.jsonFile = 'route-cr';
+
         // Costa Rica criminality graph
-        // Sets oiGraph chart
         this.crCriminalityGraph.HTMLElement = 'cr-criminality-evolution';
         this.crCriminalityGraph
             .addLabel('1990')
@@ -62,6 +82,23 @@ export class StatesController extends Controller {
                 backgroundColor: ['rgba(8, 244, 4, .8)']
             }
         );
+
+        // Guyane chart
+        this.gOrpaillage.HTMLElement = 'g-orpaillage';
+        this.gOrpaillage
+            .addLabel('2008')
+            .addLabel('2009')
+            .addLabel('2010')
+            .addLabel('2011')
+            .addLabel('2012')
+            .addLabel('2013');
+        this.gOrpaillage.addDataSet(
+            {
+                label: 'Orpaillages illégaux',
+                data: [540, 600, 490, 400, 740, 790],
+                backgroundColor: ['rgba(8, 244, 4, .8)']
+            }
+        );        
     }
 
     public show(): Promise<void> {
@@ -69,8 +106,14 @@ export class StatesController extends Controller {
             super.show().then(() => {
                 this.leafletG.show();
                 this.leafletC.show();
+                this.vulcanCr.show();
+
+                this.roadG.show();
+                this.roadCR.show();
 
                 this.crCriminalityGraph.draw();
+                this.gOrpaillage.draw();
+
                 // Sets event handlers...
                 this._setHandlers();
 
