@@ -31,23 +31,23 @@ export class ProtectedSpacesController extends Controller {
         this.viewSrc = 'protected-spaces';
 
         // Build leaflet layout for Guyana
-        this.leafletG = new LeafletService('g-layout');
-        this.leafletG.setGeoCenter(this.geoCenterGuyana.lat, this.geoCenterGuyana.lng);
-        this.leafletG.layerZoom = 7;
-        this.leafletG.jsonFile = 'contour_dep-g';
+        //this.leafletG = new LeafletService('g-layout');
+        //this.leafletG.setGeoCenter(this.geoCenterGuyana.lat, this.geoCenterGuyana.lng);
+        //this.leafletG.layerZoom = 7;
+        //this.leafletG.jsonFile = 'contour_dep-g';
 
         // Build leaflet layout for Costa Rica
-        this.leafletC = new LeafletService('c-layout');
-        this.leafletC.setGeoCenter(this.geoCenterCostaRica.lat, this.geoCenterCostaRica.lng);
-        this.leafletC.layerZoom = 7;
-        this.leafletC.jsonFile = 'contour_dep-c';
+        //this.leafletC = new LeafletService('c-layout');
+        //this.leafletC.setGeoCenter(this.geoCenterCostaRica.lat, this.geoCenterCostaRica.lng);
+        //this.leafletC.layerZoom = 7;
+        //this.leafletC.jsonFile = 'contour_dep-c';
     }
 
     public show(): Promise<void> {
         return new Promise<void>((resolve) => {
             super.show().then(() => {
-                this.leafletG.show();
-                this.leafletC.show();
+                //this.leafletG.show();
+                //this.leafletC.show();
 
                 // Sets event handlers...
                 this._setHandlers();
