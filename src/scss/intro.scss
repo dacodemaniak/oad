@@ -19,6 +19,24 @@
     }
 
 }
+.bilan--intro--container {
+    min-height: 500px;
+    height: auto;
+    font-weight: bold;
+
+    article {
+        p {
+            padding: 3em;
+            text-align: justify;
+            font-weight: bold;
+            font-size: 1.2em;
+            @media screen and (max-width: 480px) {
+                padding: .5em;
+            }
+        }
+    }
+}
+
 .intro--container {
     height: 500px;
     padding: 5em;
