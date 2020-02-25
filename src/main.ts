@@ -1,3 +1,4 @@
+import { SecurityModule } from './modules/security/security.module';
 import { HomeModule } from './modules/home/home.module';
 import { SocialModule } from './modules/social/social.module';
 import { Router } from './core/modules/router/router';
@@ -41,6 +42,9 @@ export class Main {
             )
             .add(
                 new Route('social', SocialModule)
+            )
+            .add(
+                new Route('security', SecurityModule)
             );
 
         loader.dismiss();

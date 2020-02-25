@@ -1,0 +1,381 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2020-01-28T10:24:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/276216895",
+        "condition": "dormant",
+        "ele": "1657",
+        "name": "Volcán Arenal",
+        "name:de": "Arenal",
+        "name:en": "Arenal Volcano",
+        "name:es": "Volcán Arenal",
+        "natural": "volcano",
+        "type": "strato",
+        "volcano:status": "active",
+        "volcano:type": "stratovolcano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7034096,
+          10.4620845
+        ]
+      },
+      "id": "node/276216895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/276217780",
+        "condition": "dormant",
+        "ele": "2708",
+        "is_in": "Alajuela, Costa Rica",
+        "name": "Volcán Poás",
+        "name:en": "Poás Volcano",
+        "name:fr": "Poás",
+        "natural": "volcano",
+        "natural_1": "peak",
+        "volcano:status": "active",
+        "volcano:type": "stratovolcano",
+        "wikidata": "Q1969482"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2302979,
+          10.1978153
+        ]
+      },
+      "id": "node/276217780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/276219356",
+        "condition": "active",
+        "ele": "3329",
+        "name": "Volcan Turrialba",
+        "natural": "volcano",
+        "volcano:status": "active",
+        "volcano:type": "stratovolcano",
+        "website": "http://www.ovsicori.una.ac.cr/vulcanologia/videoturri.html",
+        "wikidata": "Q546876",
+        "wikipedia": "en:Turrialba Volcano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7630416,
+          10.0195547
+        ]
+      },
+      "id": "node/276219356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/276225138",
+        "condition": "extinct",
+        "ele": "2183",
+        "name": "Volcán Platanar",
+        "natural": "volcano",
+        "wikidata": "Q3372707"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3660879,
+          10.3000174
+        ]
+      },
+      "id": "node/276225138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/276232612",
+        "addr:city": "Santa Elena",
+        "condition": "extinct",
+        "ele": "1440",
+        "name": "Volcán Orosí",
+        "natural": "volcano",
+        "volcano:status": "dormant",
+        "volcano:type": "stratovolcano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4705713,
+          10.9790008
+        ]
+      },
+      "id": "node/276232612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/361188735",
+        "condition": "dormant",
+        "ele": "1140",
+        "name": "Cerro Chato",
+        "natural": "volcano",
+        "url": "http://es.wikipedia.org/wiki/Volcn_Chato",
+        "wikidata": "Q1055820"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6881376,
+          10.4419796
+        ]
+      },
+      "id": "node/361188735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/367992484",
+        "addr:city": "Curubandé",
+        "addr:postcode": "50105",
+        "addr:street": "Rincon de la Vieja",
+        "ele": "1875",
+        "name": "Volcán Rincón de la Vieja",
+        "natural": "volcano",
+        "volcano:status": "active",
+        "volcano:type": "stratovolcano",
+        "website": "https://www.acguanacaste.ac.cr/turismo/sector-pailas",
+        "wikidata": "Q1122340",
+        "wikipedia": "es:Volcán Rincón de la Vieja"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.336742,
+          10.8306802
+        ]
+      },
+      "id": "node/367992484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/582825569",
+        "ele": "2906",
+        "is_in": "Heredia, Costa Rica",
+        "name": "Volcán Barva",
+        "natural": "volcano",
+        "volcano:status": "dormant",
+        "volcano:type": "shield",
+        "wikidata": "Q809647",
+        "wikipedia": "en:Barva Volcano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1055668,
+          10.1339978
+        ]
+      },
+      "id": "node/582825569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1671398693",
+        "ele": "3432",
+        "name": "Volcán Irazú",
+        "name:en": "Irazú Volcano",
+        "name:fr": "Irazú",
+        "natural": "volcano",
+        "volcano:status": "active",
+        "volcano:type": "stratovolcano",
+        "wikidata": "Q1672472",
+        "wikipedia": "en:Irazú Volcano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8476566,
+          9.9814457
+        ]
+      },
+      "id": "node/1671398693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3882422344",
+        "addr:city": "Liberia",
+        "addr:postcode": "50103",
+        "ele": "1659",
+        "name": "Volcán Cacao",
+        "natural": "volcano",
+        "volcano:status": "dormant",
+        "volcano:type": "stratovolcano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.4481049,
+          10.9344849
+        ]
+      },
+      "id": "node/3882422344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3882863443",
+        "addr:city": "Liberia, Guanacaste",
+        "addr:postcode": "50101",
+        "addr:street": "Rincón de la Vieja",
+        "ele": "1916",
+        "name": "Volcán Santa María",
+        "natural": "volcano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3171726,
+          10.8103609
+        ]
+      },
+      "id": "node/3882863443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4136447807",
+        "ele": "2028",
+        "name": "Volcán Miravalles",
+        "natural": "volcano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.154242,
+          10.7436202
+        ]
+      },
+      "id": "node/4136447807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4136805713",
+        "ele": "1916",
+        "name": "Volcán Tenorio",
+        "natural": "volcano",
+        "volcano:status": "dormant",
+        "volcano:type": "stratovolcano",
+        "wikidata": "Q2091698"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0127346,
+          10.6709194
+        ]
+      },
+      "id": "node/4136805713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4136805714",
+        "ele": "1520",
+        "name": "Volcán Montezuma",
+        "natural": "volcano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0242615,
+          10.6929501
+        ]
+      },
+      "id": "node/4136805714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5411833803",
+        "addr:city": "Curubandé",
+        "addr:postcode": "50105",
+        "ele": "1860",
+        "name": "Cráter Inactivo Volcán Rincón de la Vieja",
+        "natural": "volcano",
+        "volcano:type": "stratovolcano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3265245,
+          10.8254886
+        ]
+      },
+      "id": "node/5411833803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5411834936",
+        "addr:city": "Curubandé",
+        "addr:postcode": "50102",
+        "ele": "1895",
+        "name": "Cráter Von Seebach, Rincón de la Vieja",
+        "natural": "volcano",
+        "volcano:status": "dormant",
+        "volcano:type": "stratovolcano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.350168,
+          10.8286803
+        ]
+      },
+      "id": "node/5411834936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6990786346",
+        "name": "Volcán Cacho Negro",
+        "natural": "volcano",
+        "wikidata": "Q9184203"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0436078,
+          10.1954092
+        ]
+      },
+      "id": "node/6990786346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6996988122",
+        "ele": "2267",
+        "name": "Volcán Porvenir",
+        "natural": "volcano",
+        "wikidata": "Q18749564"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3609667,
+          10.2717235
+        ]
+      },
+      "id": "node/6996988122"
+    }
+  ]
+}
