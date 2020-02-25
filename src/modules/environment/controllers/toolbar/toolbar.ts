@@ -15,6 +15,6 @@ export class ToolbarController extends Controller {
         Controller.target = 'environment';
 
         this.dock = $(`[data-rel="${Controller.rel}"][data-target="${Controller.target}"]`);
-        this.viewSrc = 'leaflet-loader';
+        this.viewSrc = 'environment-loader';
     }
 }
