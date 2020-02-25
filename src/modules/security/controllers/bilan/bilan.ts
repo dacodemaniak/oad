@@ -11,10 +11,10 @@ export class BilanController extends Controller {
         super();
 
         Controller.rel = 'content';
-        Controller.target = 'environment';
+        Controller.target = 'security';
 
         this.dock = $(`[data-rel="${Controller.rel}"][data-target="${Controller.target}"]`);
-        this.viewSrc = 'bilan';
+        this.viewSrc = 'security-bilan';
 
 
         

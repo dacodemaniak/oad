@@ -1,3 +1,4 @@
+import { StatesController } from './controllers/states/states-controller';
 import { BilanController } from './controllers/bilan/bilan';
 import { ChartsController } from './controllers/charts/chart';
 import { ToolbarController } from './controllers/toolbar/toolbar';
@@ -11,20 +12,21 @@ import { FooterController } from '../../shared/controllers/footer/footer-control
 export class SecurityModule extends Module implements IModule {
     private controllers: any = {
         menu: new MenuController(),
+        states: new StatesController(),
         footer: new FooterController(),
-        toolbar: new ToolbarController(),
-        protectedSpaces: new ProtectedSpacesController(),
-        charts: new ChartsController(),
         bilan: new BilanController()
         
     };    
     
     public constructor(...args: any[]) {
         super();
-        
+        let promise: Promise<void>[] = [];
+
         for(let controller in this.controllers) {
-            this.controllers[controller].show();
+            promise.push(this.controllers[controller].show());
         }
+
+        const promises: any = Promise.all(promise).then(() => {});
     }
 
 
