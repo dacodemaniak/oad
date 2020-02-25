@@ -1,0 +1,907 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2020-01-21T17:45:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8633168",
+        "addr:city": "Cayenne",
+        "addr:housenumber": "102",
+        "addr:postcode": "97300",
+        "addr:street": "Rue Christophe Colomb",
+        "building": "yes",
+        "name": "Maison Félix Éboué",
+        "opening_hours": "We 09:00-13:00, Fr 09:00-13:00",
+        "operator": "CTG",
+        "phone": "+594 5 94 29 55 13",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "tourism": "museum",
+        "type": "multipolygon",
+        "wall": "no",
+        "wikidata": "Q30740288",
+        "wikipedia": "fr:Maison-Musée de Félix Éboué"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -52.328159,
+                4.9388525
+              ],
+              [
+                -52.3282105,
+                4.9388402
+              ],
+              [
+                -52.3282065,
+                4.9388315
+              ],
+              [
+                -52.3281933,
+                4.9388332
+              ],
+              [
+                -52.3281876,
+                4.9388169
+              ],
+              [
+                -52.3281532,
+                4.9388252
+              ],
+              [
+                -52.3281561,
+                4.9388419
+              ],
+              [
+                -52.328159,
+                4.9388525
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -52.328159,
+                4.9388525
+              ],
+              [
+                -52.3281561,
+                4.9388419
+              ],
+              [
+                -52.3281475,
+                4.9388441
+              ],
+              [
+                -52.3281503,
+                4.9388501
+              ],
+              [
+                -52.3281504,
+                4.9388546
+              ],
+              [
+                -52.328159,
+                4.9388525
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -52.3281643,
+                4.9389118
+              ],
+              [
+                -52.328173,
+                4.9389106
+              ],
+              [
+                -52.328159,
+                4.9388525
+              ],
+              [
+                -52.3281504,
+                4.9388546
+              ],
+              [
+                -52.3281523,
+                4.9388672
+              ],
+              [
+                -52.3281643,
+                4.9389118
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -52.328173,
+                4.9389106
+              ],
+              [
+                -52.3282649,
+                4.9388887
+              ],
+              [
+                -52.3282509,
+                4.9388306
+              ],
+              [
+                -52.3282105,
+                4.9388402
+              ],
+              [
+                -52.328159,
+                4.9388525
+              ],
+              [
+                -52.328173,
+                4.9389106
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": "relation/8633168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9598386",
+        "addr:city": "Cayenne",
+        "addr:housenumber": "78",
+        "addr:postcode": "97300",
+        "addr:street": "Rue de Madame Payé",
+        "email": "mcg87@wanadoo.fr",
+        "fax": "+594 5 94 35 48 45",
+        "fee": "yes",
+        "name": "Musee de Cultures Guyanaises",
+        "opening_hours": "Mo-Fr 08:00-13:00; Mo-Fr 15:00-17:45; Sa 08:00-11:45, We 08:00-13:00",
+        "phone": "+594 5 94 31 41 72",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010;Cartographie de reconnaissance 2016 par KG .",
+        "tourism": "museum",
+        "type": "multipolygon",
+        "website": "http://amazonian-museum-network.org/fr/les-musees-d-amazonie/musee-des-cultures-guyanaises"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -52.328356,
+                4.941308
+              ],
+              [
+                -52.3283302,
+                4.9413145
+              ],
+              [
+                -52.3283446,
+                4.9413718
+              ],
+              [
+                -52.3283704,
+                4.9413653
+              ],
+              [
+                -52.328356,
+                4.941308
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -52.3283792,
+                4.9413739
+              ],
+              [
+                -52.3283453,
+                4.9413819
+              ],
+              [
+                -52.3283775,
+                4.9415162
+              ],
+              [
+                -52.3283098,
+                4.9415327
+              ],
+              [
+                -52.3283249,
+                4.9415942
+              ],
+              [
+                -52.3284263,
+                4.9415701
+              ],
+              [
+                -52.3283792,
+                4.9413739
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -52.3283281,
+                4.9415168
+              ],
+              [
+                -52.3283133,
+                4.9414644
+              ],
+              [
+                -52.3282932,
+                4.9414692
+              ],
+              [
+                -52.328307,
+                4.9415218
+              ],
+              [
+                -52.3283281,
+                4.9415168
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": "relation/9598386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9598387",
+        "addr:city": "Cayenne",
+        "addr:housenumber": "54",
+        "addr:postcode": "97300",
+        "addr:street": "Rue de Madame Payé",
+        "building": "yes",
+        "email": "mcg87@wanadoo.fr",
+        "fax": "+594 5 94 35 48 45",
+        "fee": "yes",
+        "name": "Musée des Cultures Guyanaises",
+        "opening_hours": "Mo-Fr 09:00-13:00; Mo-Fr 15:00-17:45; Sa 08:00-11:45, We 09:00-13:00",
+        "phone": "+594 5 94 31 41 72",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "tourism": "museum",
+        "type": "multipolygon",
+        "website": "http://amazonian-museum-network.org/fr/les-musees-d-amazonie/musee-des-cultures-guyanaises"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -52.3295486,
+                4.9412229
+              ],
+              [
+                -52.3295945,
+                4.941211
+              ],
+              [
+                -52.3295887,
+                4.9411825
+              ],
+              [
+                -52.32954,
+                4.9411947
+              ],
+              [
+                -52.3295486,
+                4.9412229
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -52.3295197,
+                4.9411049
+              ],
+              [
+                -52.3295371,
+                4.9411849
+              ],
+              [
+                -52.3295829,
+                4.9411738
+              ],
+              [
+                -52.3295714,
+                4.9411302
+              ],
+              [
+                -52.3296258,
+                4.9411171
+              ],
+              [
+                -52.3296143,
+                4.9410807
+              ],
+              [
+                -52.3296028,
+                4.9410839
+              ],
+              [
+                -52.3295197,
+                4.9411049
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -52.3295746,
+                4.9412913
+              ],
+              [
+                -52.3296406,
+                4.9412749
+              ],
+              [
+                -52.3296256,
+                4.9412148
+              ],
+              [
+                -52.3295595,
+                4.9412313
+              ],
+              [
+                -52.3295746,
+                4.9412913
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": "relation/9598387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/10558245",
+        "addr:city": "Cayenne",
+        "addr:housenumber": "50",
+        "addr:postcode": "97300",
+        "addr:street": "Rue de Madame Payé;Rue Madame Payé",
+        "building": "yes",
+        "name": "Muzé du Nimport'Koi",
+        "operator:type": "association",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "tourism": "museum",
+        "type": "multipolygon"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [
+                -52.3297899,
+                4.941238
+              ],
+              [
+                -52.3298328,
+                4.9412279
+              ],
+              [
+                -52.3298209,
+                4.9411775
+              ],
+              [
+                -52.329778,
+                4.9411876
+              ],
+              [
+                -52.3297899,
+                4.941238
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -52.3297553,
+                4.9412462
+              ],
+              [
+                -52.3297899,
+                4.941238
+              ],
+              [
+                -52.329778,
+                4.9411876
+              ],
+              [
+                -52.3297434,
+                4.9411957
+              ],
+              [
+                -52.3297553,
+                4.9412462
+              ]
+            ]
+          ]
+        ]
+      },
+      "id": "relation/10558245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/96407331",
+        "addr:city": "Matoury",
+        "addr:street": "Rue Victor Ceide",
+        "building": "yes",
+        "name": "Musée Municipal",
+        "name:de": "Städtisches Museum",
+        "source": "Cartographie de reconnaissance 2016 par KG .",
+        "source_1": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -52.3313156,
+              4.8500792
+            ],
+            [
+              -52.331294,
+              4.8501697
+            ],
+            [
+              -52.3314773,
+              4.850213
+            ],
+            [
+              -52.3314989,
+              4.8501225
+            ],
+            [
+              -52.3313156,
+              4.8500792
+            ]
+          ]
+        ]
+      },
+      "id": "way/96407331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/176819336",
+        "building": "yes",
+        "name": "Musée de l'Espace",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 14:00-18:00",
+        "operator": "ESA",
+        "phone": "0594326123",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -52.6837559,
+              5.1692238
+            ],
+            [
+              -52.683876,
+              5.1690643
+            ],
+            [
+              -52.6838623,
+              5.1689085
+            ],
+            [
+              -52.683733,
+              5.1688033
+            ],
+            [
+              -52.6835672,
+              5.1688164
+            ],
+            [
+              -52.68345,
+              5.1689441
+            ],
+            [
+              -52.6834538,
+              5.16905
+            ],
+            [
+              -52.6834563,
+              5.1691179
+            ],
+            [
+              -52.6835943,
+              5.1692254
+            ],
+            [
+              -52.6837559,
+              5.1692238
+            ]
+          ]
+        ]
+      },
+      "id": "way/176819336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/199120696",
+        "building": "yes",
+        "name": "Maison de la Nature",
+        "operator": "Mairie de Sinamary",
+        "source": "Bing",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -53.0440733,
+              5.4182784
+            ],
+            [
+              -53.0441563,
+              5.4181325
+            ],
+            [
+              -53.0439989,
+              5.4180438
+            ],
+            [
+              -53.0439159,
+              5.4181896
+            ],
+            [
+              -53.0440733,
+              5.4182784
+            ]
+          ]
+        ]
+      },
+      "id": "way/199120696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/287861664",
+        "building": "yes",
+        "name": "Centre A.M. Javouhey",
+        "operator": "Sœurs de Saint-Joseph-de-Cluny",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2014",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -53.7765495,
+              5.6667686
+            ],
+            [
+              -53.776682,
+              5.6667905
+            ],
+            [
+              -53.7766968,
+              5.6666838
+            ],
+            [
+              -53.7766691,
+              5.666679
+            ],
+            [
+              -53.7766709,
+              5.666666
+            ],
+            [
+              -53.776675,
+              5.6666409
+            ],
+            [
+              -53.7762317,
+              5.6665633
+            ],
+            [
+              -53.7762279,
+              5.666599
+            ],
+            [
+              -53.7762565,
+              5.6666047
+            ],
+            [
+              -53.77624,
+              5.6667782
+            ],
+            [
+              -53.7764361,
+              5.6667928
+            ],
+            [
+              -53.7764414,
+              5.6667229
+            ],
+            [
+              -53.7764285,
+              5.6667215
+            ],
+            [
+              -53.7764273,
+              5.6667309
+            ],
+            [
+              -53.7763192,
+              5.666717
+            ],
+            [
+              -53.776327,
+              5.6666177
+            ],
+            [
+              -53.7765669,
+              5.6666629
+            ],
+            [
+              -53.7765634,
+              5.6666838
+            ],
+            [
+              -53.7765495,
+              5.6667686
+            ]
+          ]
+        ]
+      },
+      "id": "way/287861664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/389552319",
+        "building": "yes",
+        "name": "Maison de la Réserve naturelle",
+        "tourism": "museum",
+        "website": "http://www.reserves-naturelles.org/marais-de-kaw-roura"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -52.0369391,
+              4.4878703
+            ],
+            [
+              -52.037014,
+              4.4878916
+            ],
+            [
+              -52.0371107,
+              4.4875534
+            ],
+            [
+              -52.0370358,
+              4.4875321
+            ],
+            [
+              -52.0369391,
+              4.4878703
+            ]
+          ]
+        ]
+      },
+      "id": "way/389552319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1024331366",
+        "addr:city": "Cayenne",
+        "addr:housenumber": "1",
+        "addr:postcode": "97300",
+        "addr:street": "Avenue du Général de Gaulle",
+        "name": "Musée départemental Alexandre Franconie",
+        "name:pt": "Museu Franconie",
+        "note": "En juillet et août, ouvert du lundi au vendredi de 8h à 14h30 et le samedi de 9h à 13h30.",
+        "opening_hours": "Mo,Fr 08:00-16:45; We 08:00-13:15,14:00-16:45; Th 08:00-14:45; Sa 08:00-12:15",
+        "phone": "+594 594 29 59 13",
+        "ref:FR:museofile": "M1063",
+        "source": "Ministère de la Culture - Muséofile - 09/2019",
+        "tourism": "museum",
+        "wikidata": "Q15260096"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.3344262,
+          4.9382912
+        ]
+      },
+      "id": "node/1024331366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1581710218",
+        "addr:place": "Cacao",
+        "addr:postcode": "97352",
+        "fee": "yes",
+        "name": "Le Planeur Bleu",
+        "tourism": "museum",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.4689722,
+          4.5698056
+        ]
+      },
+      "id": "node/1581710218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1582693314",
+        "name": "Exposition culturelle Hmong",
+        "opening_hours": "Su 09:00-14:30",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.4679392,
+          4.5702815
+        ]
+      },
+      "id": "node/1582693314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2567248094",
+        "addr:city": "Régina",
+        "addr:postcode": "97390",
+        "addr:street": "Rue Gaston Monnerville",
+        "name": "Ecomusée municipal d’Approuague-Kaw",
+        "note": "Email: emak@mairie-regina.fr",
+        "phone": "+594-594-37-09-44",
+        "source": "http://www.tourisme-guyane.com/activites-et-loisirs/activites-et-loisirs/fiche-detaillee/prestataire/ecomusee-municipal-dapprouague-kaw.html",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.1285455,
+          4.3151512
+        ]
+      },
+      "id": "node/2567248094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2732339363",
+        "alt_name": "Kalapa",
+        "name": "Centre d'Archéologie Amérindienne de Kourou",
+        "opening_hours": "Mo, Th 15:00-18:00; We 09:00-13:00, 15:00-18:00",
+        "phone": "+594 594 32 58 81",
+        "short_name": "CAAK",
+        "tourism": "museum",
+        "website": "https://www.ville-kourou.fr/culture/centre-archeologie-amerindienne-de-kourou-caak/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6656301,
+          5.158933
+        ]
+      },
+      "id": "node/2732339363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5677728821",
+        "name": "Camp de la transportation",
+        "name:en": "Transportation camp",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.0313204,
+          5.5045562
+        ]
+      },
+      "id": "node/5677728821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879264284",
+        "name": "Camp de la transportation",
+        "name:en": "Transportation camp",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.0317795,
+          5.5044356
+        ]
+      },
+      "id": "node/5879264284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879264685",
+        "name": "Camp de la transportation",
+        "name:en": "Transportation camp",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.0318564,
+          5.5039943
+        ]
+      },
+      "id": "node/5879264685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5879264686",
+        "name": "Camp de la transportation",
+        "name:en": "Transportation camp",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.031974,
+          5.5038165
+        ]
+      },
+      "id": "node/5879264686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6284548820",
+        "name": "Écomusée",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.4926755,
+          4.8927912
+        ]
+      },
+      "id": "node/6284548820"
+    }
+  ]
+}

@@ -19,6 +19,8 @@ export class LeafletService {
 
     private _jsonFile: string;
 
+    private popup: any;
+
     public constructor(HTMLMapElement: string) {
         this.HTMLMapElement = HTMLMapElement;
     }
@@ -30,6 +32,15 @@ export class LeafletService {
     public setGeoCenter(lat: number, lng: number): LeafletService {
         this.geoCenter.lat = lat;
         this.geoCenter.lng = lng;
+
+        return this;
+    }
+
+    public addPopup(content: string): LeafletService {
+        console.log('Add a popup');
+        this.popup = {};
+        this.popup.content = content;
+        this.popup.geoCenter = this.geoCenter;
 
         return this;
     }
@@ -52,6 +63,13 @@ export class LeafletService {
                 );
                 // Add the brand new layer
                 this.map.addLayer(this.layer);
+
+                if (this.popup !== undefined) {
+                    let popup: any = new L.Popup()
+                        .setLatLng([this.popup.geoCenter.lat, this.popup.geoCenter.lng])
+                        .setContent(this.popup.content)
+                        .openOn(this.map);
+                }
             }
         )
     }

@@ -1,0 +1,2659 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2020-01-21T17:46:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/4144800",
+        "addr:city": "San José",
+        "addr:street": "Calle 15",
+        "building": "yes",
+        "country": "CR",
+        "name": "Museo Nacional de Costa Rica",
+        "opening_hours": "Tu-Sa 08:30-16:30; Su 09:00-16:30",
+        "operator": "MCJ",
+        "phone": "+506 2257 1433",
+        "tourism": "museum",
+        "type": "multipolygon",
+        "wikidata": "Q1968698",
+        "wikipedia": "en:Museo Nacional de Costa Rica"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.0713177,
+              9.9322978
+            ],
+            [
+              -84.0712676,
+              9.932902
+            ],
+            [
+              -84.0710136,
+              9.9328819
+            ],
+            [
+              -84.0709793,
+              9.9331867
+            ],
+            [
+              -84.0717981,
+              9.9332595
+            ],
+            [
+              -84.0718084,
+              9.9328633
+            ],
+            [
+              -84.0718182,
+              9.9326226
+            ],
+            [
+              -84.0718344,
+              9.9323448
+            ],
+            [
+              -84.0713177,
+              9.9322978
+            ]
+          ],
+          [
+            [
+              -84.0715584,
+              9.9331488
+            ],
+            [
+              -84.0713405,
+              9.9331311
+            ],
+            [
+              -84.0713994,
+              9.9324303
+            ],
+            [
+              -84.0715767,
+              9.9324447
+            ],
+            [
+              -84.0715633,
+              9.9326045
+            ],
+            [
+              -84.0716038,
+              9.9326078
+            ],
+            [
+              -84.0715584,
+              9.9331488
+            ]
+          ]
+        ]
+      },
+      "id": "relation/4144800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6742236",
+        "addr:city": "Alajuela",
+        "addr:street": "Calle 2",
+        "alt_name": "Antigua Gobernación de Alajuela",
+        "building": "yes",
+        "building:levels": "2",
+        "country": "CR",
+        "name": "Casa de la Cultura",
+        "operator": "Minicipalidad de Alajuela",
+        "operator:type": "public",
+        "tourism": "museum",
+        "type": "multipolygon"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.2148117,
+              10.0166244
+            ],
+            [
+              -84.2147027,
+              10.0162475
+            ],
+            [
+              -84.2142935,
+              10.0163579
+            ],
+            [
+              -84.2144017,
+              10.0167383
+            ],
+            [
+              -84.2148117,
+              10.0166244
+            ]
+          ],
+          [
+            [
+              -84.2147038,
+              10.0165294
+            ],
+            [
+              -84.2144852,
+              10.0165888
+            ],
+            [
+              -84.2144303,
+              10.0163973
+            ],
+            [
+              -84.2146489,
+              10.0163405
+            ],
+            [
+              -84.2147038,
+              10.0165294
+            ]
+          ]
+        ]
+      },
+      "id": "relation/6742236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/6742249",
+        "addr:city": "Alajuela",
+        "addr:street": "Avenida 1 - Bernardo Soto",
+        "alt_name": "Museo Juan Santamaría",
+        "building": "yes",
+        "country": "CR",
+        "name": "Museo Histórico Cultural Juan Santamaría",
+        "opening_hours": "Tu-Su 10:00-17:30",
+        "operator": "MCJ",
+        "phone": "+506 2441 4775",
+        "tourism": "museum",
+        "type": "multipolygon"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.2145675,
+              10.0175937
+            ],
+            [
+              -84.2143503,
+              10.0168234
+            ],
+            [
+              -84.2140094,
+              10.01692
+            ],
+            [
+              -84.2142313,
+              10.0176788
+            ],
+            [
+              -84.2145675,
+              10.0175937
+            ]
+          ],
+          [
+            [
+              -84.2144273,
+              10.0175188
+            ],
+            [
+              -84.2142985,
+              10.0175521
+            ],
+            [
+              -84.2142827,
+              10.0174927
+            ],
+            [
+              -84.2144114,
+              10.0174594
+            ],
+            [
+              -84.2144273,
+              10.0175188
+            ]
+          ],
+          [
+            [
+              -84.2143627,
+              10.0172871
+            ],
+            [
+              -84.2142465,
+              10.0173188
+            ],
+            [
+              -84.2141519,
+              10.0169822
+            ],
+            [
+              -84.2142681,
+              10.0169505
+            ],
+            [
+              -84.2143627,
+              10.0172871
+            ]
+          ]
+        ]
+      },
+      "id": "relation/6742249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/16814316",
+        "building": "yes",
+        "country": "CR",
+        "name": "Museo de Los Niños",
+        "operator": "Museo del Niño",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.0802677,
+              9.9406995
+            ],
+            [
+              -84.080399,
+              9.9407023
+            ],
+            [
+              -84.0804028,
+              9.9405343
+            ],
+            [
+              -84.0802552,
+              9.9405311
+            ],
+            [
+              -84.0800855,
+              9.9405292
+            ],
+            [
+              -84.0800836,
+              9.9406964
+            ],
+            [
+              -84.0801856,
+              9.9407262
+            ],
+            [
+              -84.0801437,
+              9.9408654
+            ],
+            [
+              -84.0797403,
+              9.9406287
+            ],
+            [
+              -84.0796716,
+              9.9408401
+            ],
+            [
+              -84.0799205,
+              9.9409838
+            ],
+            [
+              -84.0799205,
+              9.9411275
+            ],
+            [
+              -84.0796981,
+              9.9412435
+            ],
+            [
+              -84.079663,
+              9.9411782
+            ],
+            [
+              -84.0795772,
+              9.9412543
+            ],
+            [
+              -84.0795429,
+              9.9413389
+            ],
+            [
+              -84.0795944,
+              9.9414572
+            ],
+            [
+              -84.0796802,
+              9.9414911
+            ],
+            [
+              -84.0797918,
+              9.9414657
+            ],
+            [
+              -84.0798003,
+              9.9413727
+            ],
+            [
+              -84.0800235,
+              9.9412882
+            ],
+            [
+              -84.0801093,
+              9.9413896
+            ],
+            [
+              -84.0800949,
+              9.9416237
+            ],
+            [
+              -84.080265,
+              9.9416339
+            ],
+            [
+              -84.080281,
+              9.9413727
+            ],
+            [
+              -84.0804215,
+              9.9412606
+            ],
+            [
+              -84.0806587,
+              9.9415502
+            ],
+            [
+              -84.080796,
+              9.9415587
+            ],
+            [
+              -84.0808561,
+              9.9414911
+            ],
+            [
+              -84.0808217,
+              9.9413304
+            ],
+            [
+              -84.0805042,
+              9.941136
+            ],
+            [
+              -84.0805385,
+              9.9410345
+            ],
+            [
+              -84.0807509,
+              9.9409776
+            ],
+            [
+              -84.0806907,
+              9.9407595
+            ],
+            [
+              -84.0802638,
+              9.9408739
+            ],
+            [
+              -84.0802677,
+              9.9406995
+            ]
+          ]
+        ]
+      },
+      "id": "way/16814316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/38934049",
+        "addr:city": "San José",
+        "addr:street": "Calle 42",
+        "alt_name": "Salón de la Fama del Deporte",
+        "building": "yes",
+        "country": "CR",
+        "name": "Museo del Deporte",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.0985528,
+              9.9365232
+            ],
+            [
+              -84.0985904,
+              9.9361833
+            ],
+            [
+              -84.0987532,
+              9.9362008
+            ],
+            [
+              -84.0987636,
+              9.9361072
+            ],
+            [
+              -84.0984898,
+              9.9360778
+            ],
+            [
+              -84.0984549,
+              9.9363924
+            ],
+            [
+              -84.0984047,
+              9.936387
+            ],
+            [
+              -84.0983961,
+              9.9364647
+            ],
+            [
+              -84.0984617,
+              9.9364718
+            ],
+            [
+              -84.0984572,
+              9.9365129
+            ],
+            [
+              -84.0985528,
+              9.9365232
+            ]
+          ]
+        ]
+      },
+      "id": "way/38934049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/38934051",
+        "building": "yes",
+        "building:levels": "2",
+        "country": "CR",
+        "name": "Museo de Arte Costarricense",
+        "name:en": "Museum of Costa Rican Art",
+        "name:es": "Museo de Arte Costarricense",
+        "opening_hours": "Tu-Su 10:00-16:00",
+        "operator": "Ministerio de Cultura y Juventud",
+        "tourism": "museum",
+        "wikidata": "Q20022317"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.0990997,
+              9.9356809
+            ],
+            [
+              -84.0991078,
+              9.9356611
+            ],
+            [
+              -84.0991185,
+              9.9353586
+            ],
+            [
+              -84.0991574,
+              9.9353414
+            ],
+            [
+              -84.0991779,
+              9.9353032
+            ],
+            [
+              -84.0991815,
+              9.9352334
+            ],
+            [
+              -84.0991466,
+              9.935178
+            ],
+            [
+              -84.0990955,
+              9.9351572
+            ],
+            [
+              -84.098997,
+              9.9351574
+            ],
+            [
+              -84.098947,
+              9.9352083
+            ],
+            [
+              -84.0989316,
+              9.9352706
+            ],
+            [
+              -84.0989187,
+              9.9356307
+            ],
+            [
+              -84.0990179,
+              9.9356373
+            ],
+            [
+              -84.0990193,
+              9.9356518
+            ],
+            [
+              -84.0990206,
+              9.9356769
+            ],
+            [
+              -84.0990327,
+              9.9356928
+            ],
+            [
+              -84.0990595,
+              9.9357007
+            ],
+            [
+              -84.0990863,
+              9.9356968
+            ],
+            [
+              -84.0990997,
+              9.9356809
+            ]
+          ]
+        ]
+      },
+      "id": "way/38934051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/57970333",
+        "addr:city": "Oriental",
+        "addr:street": "Avenida 3",
+        "building": "yes",
+        "country": "CR",
+        "name": "Museo Municipal de Cartago",
+        "tourism": "museum",
+        "website": "http://www.muni-carta.go.cr/cultura/museo/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.9201471,
+              9.8668168
+            ],
+            [
+              -83.9199065,
+              9.8667854
+            ],
+            [
+              -83.9196402,
+              9.8667507
+            ],
+            [
+              -83.919603,
+              9.8670444
+            ],
+            [
+              -83.9201118,
+              9.8671012
+            ],
+            [
+              -83.9201471,
+              9.8668168
+            ]
+          ]
+        ]
+      },
+      "id": "way/57970333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/108849506",
+        "country": "CR",
+        "name": "Casa de la Cultura",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.0848447,
+              9.9839204
+            ],
+            [
+              -84.0844244,
+              9.9839879
+            ],
+            [
+              -84.0844792,
+              9.9843185
+            ],
+            [
+              -84.0848995,
+              9.984251
+            ],
+            [
+              -84.0848447,
+              9.9839204
+            ]
+          ]
+        ]
+      },
+      "id": "way/108849506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/112260745",
+        "building": "yes",
+        "country": "CR",
+        "name": "Cárcel San Lucas",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.9034005,
+              9.9450691
+            ],
+            [
+              -84.9032503,
+              9.9449581
+            ],
+            [
+              -84.9030625,
+              9.9448366
+            ],
+            [
+              -84.9028747,
+              9.944826
+            ],
+            [
+              -84.9027621,
+              9.9449158
+            ],
+            [
+              -84.902687,
+              9.9450902
+            ],
+            [
+              -84.9027031,
+              9.9452646
+            ],
+            [
+              -84.9027889,
+              9.9453482
+            ],
+            [
+              -84.9028859,
+              9.9454079
+            ],
+            [
+              -84.9029733,
+              9.9453673
+            ],
+            [
+              -84.903033,
+              9.9452619
+            ],
+            [
+              -84.9031017,
+              9.9452149
+            ],
+            [
+              -84.9031483,
+              9.9451589
+            ],
+            [
+              -84.9032932,
+              9.945254
+            ],
+            [
+              -84.9034005,
+              9.9450691
+            ]
+          ]
+        ]
+      },
+      "id": "way/112260745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/130828635",
+        "addr:city": "San Ramón",
+        "addr:street": "Avenida 1",
+        "building": "yes",
+        "country": "CR",
+        "name": "Museo José Figures Ferrer",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.4694006,
+              10.0876525
+            ],
+            [
+              -84.4691916,
+              10.0876254
+            ],
+            [
+              -84.4691655,
+              10.0878208
+            ],
+            [
+              -84.4693745,
+              10.0878478
+            ],
+            [
+              -84.4694006,
+              10.0876525
+            ]
+          ]
+        ]
+      },
+      "id": "way/130828635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/131121092",
+        "building": "yes",
+        "country": "CR",
+        "name": "Casa de la Cultura",
+        "opening_hours": "Mo-Fr 08:30-20:00",
+        "operator": "Municipalidad",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.9722079,
+              8.8203718
+            ],
+            [
+              -82.972146,
+              8.8204819
+            ],
+            [
+              -82.9721947,
+              8.8204784
+            ],
+            [
+              -82.9722039,
+              8.8205574
+            ],
+            [
+              -82.9722602,
+              8.820576
+            ],
+            [
+              -82.9723353,
+              8.8205415
+            ],
+            [
+              -82.9724587,
+              8.8204832
+            ],
+            [
+              -82.9725579,
+              8.8204037
+            ],
+            [
+              -82.9725043,
+              8.8202765
+            ],
+            [
+              -82.9724185,
+              8.8201413
+            ],
+            [
+              -82.97233,
+              8.8201651
+            ],
+            [
+              -82.9722951,
+              8.8201996
+            ],
+            [
+              -82.9722441,
+              8.8201863
+            ],
+            [
+              -82.9721529,
+              8.8202394
+            ],
+            [
+              -82.9721342,
+              8.8203295
+            ],
+            [
+              -82.9722079,
+              8.8203718
+            ]
+          ]
+        ]
+      },
+      "id": "way/131121092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/131125944",
+        "country": "CR",
+        "name": "Dante Alighieri",
+        "name:ba": "Данте Алигьери",
+        "name:ru": "Данте Алигьери",
+        "name:tt": "Данте Алигьери",
+        "opening_hours": "Mo-Fr 08:30-20:00",
+        "tourism": "museum",
+        "wikipedia": "es:Dante Alighieri"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.9706411,
+              8.8198528
+            ],
+            [
+              -82.9707111,
+              8.8198039
+            ],
+            [
+              -82.9706256,
+              8.819612
+            ],
+            [
+              -82.9705327,
+              8.8196913
+            ],
+            [
+              -82.9706411,
+              8.8198528
+            ]
+          ]
+        ]
+      },
+      "id": "way/131125944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/194487624",
+        "addr:city": "Santa Lucía",
+        "country": "CR",
+        "name": "Museo de Cultura Popular",
+        "tourism": "museum",
+        "wikidata": "Q16918968"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.1155366,
+              10.0177371
+            ],
+            [
+              -84.1153392,
+              10.0175227
+            ],
+            [
+              -84.1149653,
+              10.0171164
+            ],
+            [
+              -84.1146058,
+              10.0167809
+            ],
+            [
+              -84.114331,
+              10.0170642
+            ],
+            [
+              -84.1141767,
+              10.0172141
+            ],
+            [
+              -84.1142456,
+              10.0173369
+            ],
+            [
+              -84.1143671,
+              10.0172907
+            ],
+            [
+              -84.11441,
+              10.0173778
+            ],
+            [
+              -84.1144661,
+              10.0174798
+            ],
+            [
+              -84.1146407,
+              10.0174254
+            ],
+            [
+              -84.1146809,
+              10.0174544
+            ],
+            [
+              -84.1148982,
+              10.0175839
+            ],
+            [
+              -84.1150725,
+              10.017708
+            ],
+            [
+              -84.1151181,
+              10.0177265
+            ],
+            [
+              -84.1152496,
+              10.0177476
+            ],
+            [
+              -84.1153703,
+              10.0177476
+            ],
+            [
+              -84.1155366,
+              10.0177371
+            ]
+          ]
+        ]
+      },
+      "id": "way/194487624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/194523598",
+        "addr:city": "San José",
+        "addr:street": "Calle 4",
+        "area": "yes",
+        "country": "CR",
+        "name": "Museo de los Niños",
+        "name:en": "Children's Museum",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.0810516,
+              9.9416928
+            ],
+            [
+              -84.0807778,
+              9.9405393
+            ],
+            [
+              -84.0802837,
+              9.94047
+            ],
+            [
+              -84.0798172,
+              9.940422
+            ],
+            [
+              -84.0793215,
+              9.9415437
+            ],
+            [
+              -84.0801396,
+              9.9417879
+            ],
+            [
+              -84.0810516,
+              9.9416928
+            ]
+          ]
+        ]
+      },
+      "id": "way/194523598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/232393634",
+        "addr:city": "Puntarenas",
+        "addr:street": "Avenida Central",
+        "alt_name": "Casa de la Cultura",
+        "building": "yes",
+        "country": "CR",
+        "name": "Museo Histórico Marino de la Ciudad de Puntarenas",
+        "opening_hours": "Mo-Su 9:45-17:15",
+        "operator": "MCJ",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.8340512,
+              9.9776925
+            ],
+            [
+              -84.8340272,
+              9.977344
+            ],
+            [
+              -84.8336399,
+              9.9773699
+            ],
+            [
+              -84.8336639,
+              9.9777183
+            ],
+            [
+              -84.8340512,
+              9.9776925
+            ]
+          ]
+        ]
+      },
+      "id": "way/232393634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/257957356",
+        "addr:city": "San José",
+        "addr:street": "Calle 50",
+        "building": "yes",
+        "country": "CR",
+        "name": "Museo Histórico y Tecnológico Grupo ICE",
+        "operator": "ICE",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.1023517,
+              9.9417036
+            ],
+            [
+              -84.1023582,
+              9.9415086
+            ],
+            [
+              -84.1020744,
+              9.9414994
+            ],
+            [
+              -84.1020679,
+              9.9416945
+            ],
+            [
+              -84.1023517,
+              9.9417036
+            ]
+          ]
+        ]
+      },
+      "id": "way/257957356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/284350686",
+        "addr:city": "San José",
+        "addr:street": "Avenida Central",
+        "building": "yes",
+        "country": "CR",
+        "name": "Museo del Jade y la Cultura Precolombina",
+        "opening_hours": "Mo-Su,PH 10:00-17:00",
+        "operator": "INS",
+        "tourism": "museum",
+        "wikidata": "Q6940563"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.0729944,
+              9.9333861
+            ],
+            [
+              -84.0730216,
+              9.9329987
+            ],
+            [
+              -84.0725965,
+              9.9329604
+            ],
+            [
+              -84.0725625,
+              9.9333412
+            ],
+            [
+              -84.0729944,
+              9.9333861
+            ]
+          ]
+        ]
+      },
+      "id": "way/284350686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/331603776",
+        "addr:city": "Cahuita",
+        "building": "yes",
+        "country": "CR",
+        "name": "Casa de la Cultura",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.7543671,
+              9.6570899
+            ],
+            [
+              -82.7544625,
+              9.6569865
+            ],
+            [
+              -82.7543243,
+              9.6568627
+            ],
+            [
+              -82.754229,
+              9.6569661
+            ],
+            [
+              -82.7543671,
+              9.6570899
+            ]
+          ]
+        ]
+      },
+      "id": "way/331603776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/392605672",
+        "addr:city": "Heredia",
+        "addr:street": "Calle Central",
+        "building": "yes",
+        "country": "CR",
+        "name": "Casa de la Cultura Alfredo González Flores",
+        "source": "KG Ground Survey 2015",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.1166813,
+              9.999107
+            ],
+            [
+              -84.1166811,
+              9.9988541
+            ],
+            [
+              -84.1164931,
+              9.9988352
+            ],
+            [
+              -84.1164925,
+              9.9989148
+            ],
+            [
+              -84.1164911,
+              9.9990933
+            ],
+            [
+              -84.1166813,
+              9.999107
+            ]
+          ]
+        ]
+      },
+      "id": "way/392605672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/414277852",
+        "addr:city": "San José",
+        "addr:street": "Diagonal 9A",
+        "building": "yes",
+        "country": "CR",
+        "name": "Museo Histórico Dr. Rafael Ángel Calderón Guardia",
+        "opening_hours": "Mo-Sa 09:00-17:00",
+        "operator": "Ministerio de Cultura y Juventud",
+        "phone": "2221-1239 / 2257-2396",
+        "tourism": "museum",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.0655727,
+              9.9372516
+            ],
+            [
+              -84.0654856,
+              9.9372204
+            ],
+            [
+              -84.0654844,
+              9.9371993
+            ],
+            [
+              -84.0654758,
+              9.9371783
+            ],
+            [
+              -84.0654503,
+              9.9371686
+            ],
+            [
+              -84.0654261,
+              9.9371784
+            ],
+            [
+              -84.0654074,
+              9.9371943
+            ],
+            [
+              -84.0653277,
+              9.9371607
+            ],
+            [
+              -84.0653226,
+              9.9371719
+            ],
+            [
+              -84.0652835,
+              9.9371565
+            ],
+            [
+              -84.0652467,
+              9.9372334
+            ],
+            [
+              -84.0652176,
+              9.9372228
+            ],
+            [
+              -84.0651113,
+              9.9373318
+            ],
+            [
+              -84.065139,
+              9.9373359
+            ],
+            [
+              -84.0651775,
+              9.9373795
+            ],
+            [
+              -84.0651636,
+              9.937412
+            ],
+            [
+              -84.0655192,
+              9.9375453
+            ],
+            [
+              -84.0655482,
+              9.9374663
+            ],
+            [
+              -84.0654892,
+              9.9374463
+            ],
+            [
+              -84.0655041,
+              9.9374375
+            ],
+            [
+              -84.0655094,
+              9.9374257
+            ],
+            [
+              -84.06551,
+              9.937415
+            ],
+            [
+              -84.0655085,
+              9.9374032
+            ],
+            [
+              -84.0655727,
+              9.9372516
+            ]
+          ]
+        ]
+      },
+      "id": "way/414277852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/445983016",
+        "addr:city": "Liberia",
+        "addr:street": "Avenida 1",
+        "building": "yes",
+        "country": "CR",
+        "name": "Museo Regional de Guanacaste",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -85.4397358,
+              10.6301906
+            ],
+            [
+              -85.4395105,
+              10.6297132
+            ],
+            [
+              -85.4389929,
+              10.6299492
+            ],
+            [
+              -85.4392182,
+              10.6304266
+            ],
+            [
+              -85.4397358,
+              10.6301906
+            ]
+          ]
+        ]
+      },
+      "id": "way/445983016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/458584479",
+        "addr:city": "Desmonte",
+        "building": "yes",
+        "country": "CR",
+        "name": "Ecomuseo Minas del Aguacate",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.4702922,
+              9.9672523
+            ],
+            [
+              -84.4702156,
+              9.967117
+            ],
+            [
+              -84.4699144,
+              9.9672824
+            ],
+            [
+              -84.4699911,
+              9.9674178
+            ],
+            [
+              -84.4702922,
+              9.9672523
+            ]
+          ]
+        ]
+      },
+      "id": "way/458584479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/463534761",
+        "addr:city": "Heredia",
+        "addr:street": "Avenida Central",
+        "building": "yes",
+        "country": "CR",
+        "name": "Centro de la Cultura Herediana Omar Dengo",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.1180012,
+              9.9993821
+            ],
+            [
+              -84.1180049,
+              9.9990023
+            ],
+            [
+              -84.1176445,
+              9.998973
+            ],
+            [
+              -84.1176508,
+              9.9993596
+            ],
+            [
+              -84.1180012,
+              9.9993821
+            ]
+          ]
+        ]
+      },
+      "id": "way/463534761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/468909044",
+        "addr:city": "Ciudad Cortés",
+        "addr:street": "Avenida 2",
+        "building": "yes",
+        "country": "CR",
+        "name": "Casa de la Culrura",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.524198,
+              8.9564633
+            ],
+            [
+              -83.5242151,
+              8.9562396
+            ],
+            [
+              -83.5241054,
+              8.9562314
+            ],
+            [
+              -83.5240884,
+              8.9564551
+            ],
+            [
+              -83.524198,
+              8.9564633
+            ]
+          ]
+        ]
+      },
+      "id": "way/468909044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/474499604",
+        "addr:city": "Limón",
+        "addr:street": "Calle Manuel Brenes",
+        "building": "yes",
+        "country": "CR",
+        "name": "Museo Regional de la Provincia de Limón",
+        "operator": "UCR",
+        "operator:type": "public",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.0291725,
+              9.9918833
+            ],
+            [
+              -83.0290477,
+              9.9914764
+            ],
+            [
+              -83.0288398,
+              9.9915382
+            ],
+            [
+              -83.0289646,
+              9.9919451
+            ],
+            [
+              -83.0291725,
+              9.9918833
+            ]
+          ]
+        ]
+      },
+      "id": "way/474499604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/475673797",
+        "addr:city": "Nacascolo",
+        "building": "yes",
+        "country": "CR",
+        "name": "Museo Histórico Casona de Santa Rosa",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -85.6126318,
+              10.8339598
+            ],
+            [
+              -85.6124941,
+              10.8338755
+            ],
+            [
+              -85.6125259,
+              10.8338256
+            ],
+            [
+              -85.6123089,
+              10.8336927
+            ],
+            [
+              -85.6121454,
+              10.8339504
+            ],
+            [
+              -85.6125,
+              10.8341675
+            ],
+            [
+              -85.6126318,
+              10.8339598
+            ]
+          ]
+        ]
+      },
+      "id": "way/475673797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/482560057",
+        "addr:city": "San Antonio",
+        "building": "yes",
+        "country": "CR",
+        "name": "Ecomuseo de la Cerámica Chorotega",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -85.4919575,
+              10.2578227
+            ],
+            [
+              -85.4913298,
+              10.2578174
+            ],
+            [
+              -85.4912735,
+              10.2581843
+            ],
+            [
+              -85.4911662,
+              10.258113
+            ],
+            [
+              -85.4912199,
+              10.2583453
+            ],
+            [
+              -85.4918395,
+              10.2583955
+            ],
+            [
+              -85.4919575,
+              10.2578227
+            ]
+          ]
+        ]
+      },
+      "id": "way/482560057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/513449339",
+        "addr:city": "Guápiles",
+        "addr:street": "Avenida 2",
+        "building": "yes",
+        "country": "CR",
+        "name": "Casa de La Cultura de Pococí",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.7898942,
+              10.2136563
+            ],
+            [
+              -83.7899096,
+              10.2135235
+            ],
+            [
+              -83.789527,
+              10.2134803
+            ],
+            [
+              -83.7895116,
+              10.2136132
+            ],
+            [
+              -83.7898942,
+              10.2136563
+            ]
+          ]
+        ]
+      },
+      "id": "way/513449339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/517354437",
+        "addr:city": "Orosi",
+        "building": "yes",
+        "country": "CR",
+        "description:payment": "CRC500/250 adult/child",
+        "fee": "yes",
+        "name": "Museo Convento Franciscano San José de Orosi",
+        "opening_hours": "Tu-Sa 13:00-17:00; Su 09:00-17:00",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.8556961,
+              9.7973587
+            ],
+            [
+              -83.855587,
+              9.7973437
+            ],
+            [
+              -83.8555649,
+              9.7975001
+            ],
+            [
+              -83.8554265,
+              9.7974812
+            ],
+            [
+              -83.8554097,
+              9.7976006
+            ],
+            [
+              -83.8554535,
+              9.7976066
+            ],
+            [
+              -83.8554517,
+              9.7975939
+            ],
+            [
+              -83.8556588,
+              9.7976223
+            ],
+            [
+              -83.8556961,
+              9.7973587
+            ]
+          ]
+        ]
+      },
+      "id": "way/517354437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/539588085",
+        "addr:city": "Palmar",
+        "building": "yes",
+        "country": "CR",
+        "name": "Museo de Las Esferas",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.4789305,
+              8.910687
+            ],
+            [
+              -83.4788124,
+              8.910614
+            ],
+            [
+              -83.4786399,
+              8.9108867
+            ],
+            [
+              -83.478758,
+              8.9109596
+            ],
+            [
+              -83.4789305,
+              8.910687
+            ]
+          ]
+        ]
+      },
+      "id": "way/539588085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/550905615",
+        "addr:city": "San Rafael",
+        "addr:street": "Avenida 31",
+        "building": "yes",
+        "building:levels": "1",
+        "building_1": "culture",
+        "name": "Centro Cultural San Rafael",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.1014299,
+              10.0135483
+            ],
+            [
+              -84.1014432,
+              10.013351
+            ],
+            [
+              -84.1012571,
+              10.0133317
+            ],
+            [
+              -84.101236,
+              10.0135332
+            ],
+            [
+              -84.1014299,
+              10.0135483
+            ]
+          ]
+        ]
+      },
+      "id": "way/550905615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/559272768",
+        "addr:city": "San Ramón",
+        "addr:street": "Avenida 1",
+        "building": "yes",
+        "country": "CR",
+        "name": "Museo Regional de San Ramón",
+        "opening_hours": "Tu-Sa 10:00-18:00, Su and Monday Close",
+        "operator": "UCR",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.4701432,
+              10.0880649
+            ],
+            [
+              -84.4701685,
+              10.0878658
+            ],
+            [
+              -84.4701874,
+              10.0877289
+            ],
+            [
+              -84.4697716,
+              10.0876767
+            ],
+            [
+              -84.4697301,
+              10.0880157
+            ],
+            [
+              -84.4701432,
+              10.0880649
+            ]
+          ]
+        ]
+      },
+      "id": "way/559272768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/588710160",
+        "addr:city": "San Josecito",
+        "addr:street": "Avenida 19",
+        "building": "yes",
+        "country": "CR",
+        "name": "Planta La Joya",
+        "operator": "ESPH",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.1096919,
+              10.0083536
+            ],
+            [
+              -84.109375,
+              10.0082414
+            ],
+            [
+              -84.1093955,
+              10.0081853
+            ],
+            [
+              -84.1093448,
+              10.0081674
+            ],
+            [
+              -84.1092957,
+              10.0083016
+            ],
+            [
+              -84.1094926,
+              10.0083713
+            ],
+            [
+              -84.109468,
+              10.0084385
+            ],
+            [
+              -84.1095468,
+              10.0084664
+            ],
+            [
+              -84.1095702,
+              10.0084024
+            ],
+            [
+              -84.1096241,
+              10.0084215
+            ],
+            [
+              -84.1096065,
+              10.0084697
+            ],
+            [
+              -84.1096446,
+              10.0084832
+            ],
+            [
+              -84.1096919,
+              10.0083536
+            ]
+          ]
+        ]
+      },
+      "id": "way/588710160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/659412536",
+        "addr:city": "San José",
+        "addr:street": "Avenida 12",
+        "building": "yes",
+        "name": "Museo de Ciencias Naturales La Salle",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.1105121,
+              9.9326785
+            ],
+            [
+              -84.1109434,
+              9.9327586
+            ],
+            [
+              -84.1110411,
+              9.9322335
+            ],
+            [
+              -84.110928,
+              9.9322009
+            ],
+            [
+              -84.1108891,
+              9.9323892
+            ],
+            [
+              -84.1107687,
+              9.9323613
+            ],
+            [
+              -84.110797,
+              9.9321922
+            ],
+            [
+              -84.1106449,
+              9.932166
+            ],
+            [
+              -84.1105865,
+              9.9322096
+            ],
+            [
+              -84.1105121,
+              9.9326785
+            ]
+          ]
+        ]
+      },
+      "id": "way/659412536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/670495263",
+        "building": "yes",
+        "name": "Casa - Museo Alexander F. Skutch",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.6270678,
+              9.3382358
+            ],
+            [
+              -83.6270779,
+              9.3381636
+            ],
+            [
+              -83.6270409,
+              9.3381605
+            ],
+            [
+              -83.6270455,
+              9.3381134
+            ],
+            [
+              -83.6270863,
+              9.3381164
+            ],
+            [
+              -83.6270933,
+              9.3380427
+            ],
+            [
+              -83.6270139,
+              9.3380321
+            ],
+            [
+              -83.6270101,
+              9.3380708
+            ],
+            [
+              -83.6269777,
+              9.3380685
+            ],
+            [
+              -83.6269608,
+              9.3382251
+            ],
+            [
+              -83.6270678,
+              9.3382358
+            ]
+          ]
+        ]
+      },
+      "id": "way/670495263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/682556977",
+        "building": "yes",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.6724256,
+              9.9011234
+            ],
+            [
+              -83.6723465,
+              9.9016011
+            ],
+            [
+              -83.6725425,
+              9.9016282
+            ],
+            [
+              -83.6725975,
+              9.9011674
+            ],
+            [
+              -83.6724256,
+              9.9011234
+            ]
+          ]
+        ]
+      },
+      "id": "way/682556977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/699063082",
+        "amenity": "arts_centre",
+        "building": "yes",
+        "name": "Antigua Aduana",
+        "old_name": "Aduana",
+        "opening_hours": "Mo-Su 08:00-18:00",
+        "source": "http://www.costaricaweb.cr/es/teatro-la-aduana-de-costa-rica/",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.067384,
+              9.9342796
+            ],
+            [
+              -84.0672153,
+              9.9347098
+            ],
+            [
+              -84.0671609,
+              9.9346891
+            ],
+            [
+              -84.0670516,
+              9.9346475
+            ],
+            [
+              -84.0668698,
+              9.9345784
+            ],
+            [
+              -84.0666717,
+              9.9350836
+            ],
+            [
+              -84.0667993,
+              9.9351321
+            ],
+            [
+              -84.0669644,
+              9.9347109
+            ],
+            [
+              -84.0671018,
+              9.9347632
+            ],
+            [
+              -84.0670703,
+              9.9348435
+            ],
+            [
+              -84.0671297,
+              9.9348661
+            ],
+            [
+              -84.0666945,
+              9.9359769
+            ],
+            [
+              -84.0666742,
+              9.9360287
+            ],
+            [
+              -84.0665102,
+              9.9359664
+            ],
+            [
+              -84.0664806,
+              9.936042
+            ],
+            [
+              -84.0665149,
+              9.936055
+            ],
+            [
+              -84.06684,
+              9.9361786
+            ],
+            [
+              -84.0673625,
+              9.9348449
+            ],
+            [
+              -84.0674209,
+              9.9348671
+            ],
+            [
+              -84.0675465,
+              9.9345466
+            ],
+            [
+              -84.0675093,
+              9.9345324
+            ],
+            [
+              -84.0675793,
+              9.9343539
+            ],
+            [
+              -84.067384,
+              9.9342796
+            ]
+          ]
+        ]
+      },
+      "id": "way/699063082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/459837504",
+        "addr:city": "San José",
+        "addr:street": "Calle 5",
+        "country": "CR",
+        "name": "Museo del Oro Precolombino",
+        "operator": "Museos del Banco Central",
+        "phone": "+506 2243 4220",
+        "tourism": "museum",
+        "wikidata": "Q10941394"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0766987,
+          9.9335464
+        ]
+      },
+      "id": "node/459837504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/462021598",
+        "country": "CR",
+        "museum": "railway",
+        "name": "Museo Ferroviario",
+        "opening_hours": "Su 9:00-18:00",
+        "phone": "+506 2446 0091",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3537571,
+          9.9612063
+        ]
+      },
+      "id": "node/462021598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/693740721",
+        "country": "CR",
+        "name": "Sea Turtle Conservancy Visitor's Center",
+        "name:en": "Sea Turtle Conservancy Visitor's Center",
+        "opening_hours": "Mo-Su 10:00-12:00, 14:00-17:00",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.504927,
+          10.5470658
+        ]
+      },
+      "id": "node/693740721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1600240015",
+        "addr:city": "Cartago",
+        "country": "CR",
+        "name": "Casa de la Ciudad",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9229799,
+          9.8652516
+        ]
+      },
+      "id": "node/1600240015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2273202467",
+        "country": "CR",
+        "name": "Museo de Insectos",
+        "opening_hours": "Mo-Fr 13:00-16:45",
+        "phone": "2207-5318",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0481103,
+          9.9374966
+        ]
+      },
+      "id": "node/2273202467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2273211437",
+        "addr:city": "San José",
+        "addr:street": "Avenida 3",
+        "country": "CR",
+        "description": "Offices: Mo-Fr 09:00-17:00; Exhibition Rooms: Mo-Sa 09:30-17:00; Video Library and Documentation Center: Mo-Fr 09:00-12:00 13:00-17:00",
+        "name": "Museo de Arte y Diseño Contemporáneo",
+        "opening_hours": "Mo-Sa 09:30-17:00",
+        "operator": "MCJ",
+        "operator:type": "public",
+        "phone": "2257-7202 / 2257-9370",
+        "ramp:wheelchair": "yes",
+        "tourism": "museum",
+        "wheelchair": "yes",
+        "wikidata": "Q5685364",
+        "wikipedia": "en:Museum of Contemporary Art and Design"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0719713,
+          9.9356267
+        ]
+      },
+      "id": "node/2273211437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2459631341",
+        "country": "CR",
+        "name": "Volcano Museum Noche Buena",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8456713,
+          9.9588226
+        ]
+      },
+      "id": "node/2459631341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3654716637",
+        "country": "CR",
+        "name": "Museo Comunitario Indígena de Boruca",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3258308,
+          9.0016104
+        ]
+      },
+      "id": "node/3654716637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3654725001",
+        "addr:city": "Cahuita",
+        "country": "CR",
+        "name": "Museo del Cacao - Cocoa Trails",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.803319,
+          9.674934
+        ]
+      },
+      "id": "node/3654725001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3654767678",
+        "addr:city": "Desamparados",
+        "country": "CR",
+        "name": "Museo Joaquín García Monge",
+        "source": "KG Ground Survey 2015",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0640021,
+          9.8985519
+        ]
+      },
+      "id": "node/3654767678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3654779806",
+        "country": "CR",
+        "name": "Museo Integral de Cultura e Identidad Nacional y Centroamericana",
+        "operator": "CIICLA",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0524529,
+          9.9388039
+        ]
+      },
+      "id": "node/3654779806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3654796751",
+        "country": "CR",
+        "name": "Museo de Culturas Indígenas Dra. María Eugenia Bozzoli",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1233984,
+          10.4177269
+        ]
+      },
+      "id": "node/3654796751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3654871044",
+        "addr:city": "San José",
+        "addr:street": "Vía 104",
+        "country": "CR",
+        "name": "Museo de la Comunidad Judía de Costa Rica",
+        "note": "opening_hours: Previa cita",
+        "operator": "Centro Israelita Sionista de Costa Rica",
+        "phone": "+506 2520 1013",
+        "tourism": "museum",
+        "website": "http://190.112.221.81/~centrois//app/cms/www/index.php?id_menu=26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1176634,
+          9.9374527
+        ]
+      },
+      "id": "node/3654871044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3654886029",
+        "country": "CR",
+        "name": "Museo de la Ciudad de los Niños",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9177676,
+          9.8350087
+        ]
+      },
+      "id": "node/3654886029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4311847567",
+        "addr:city": "Puerto Viejo",
+        "country": "CR",
+        "name": "Hito Histórico La Trinidad",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9363153,
+          10.713405
+        ]
+      },
+      "id": "node/4311847567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4433497110",
+        "addr:city": "La Sierra",
+        "country": "CR",
+        "name": "Ecomuseo de las Minas de Abangares",
+        "opening_hours": "Tu-Su 8:00-16:00",
+        "phone": "26620004",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9245694,
+          10.2838127
+        ]
+      },
+      "id": "node/4433497110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4657181190",
+        "country": "CR",
+        "name": "Museo Islita",
+        "name:en": "Museo Islita",
+        "name:es": "Museo Islita",
+        "name:fr": "Museo Islita",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.3966108,
+          9.8596134
+        ]
+      },
+      "id": "node/4657181190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4682702284",
+        "addr:city": "San José",
+        "addr:street": "Calle 2",
+        "country": "CR",
+        "name": "Museo Postal, Telegráfico y Filatélico",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0800193,
+          9.9351642
+        ]
+      },
+      "id": "node/4682702284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5173993921",
+        "country": "CR",
+        "name:en": "Alexander Skutch Home and Museum",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6270074,
+          9.3381392
+        ]
+      },
+      "id": "node/5173993921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5187466955",
+        "addr:city": "San Ramón",
+        "description": "museo",
+        "name": "Jardin de la guaria en honor a la San Ramon",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4728697,
+          10.0791027
+        ]
+      },
+      "id": "node/5187466955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6392170589",
+        "building": "yes",
+        "name": "Museo Omar Salazar Obando",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6723465,
+          9.9016011
+        ]
+      },
+      "id": "node/6392170589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6567188385",
+        "name": "Talentum",
+        "tourism": "museum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0756169,
+          9.938642
+        ]
+      },
+      "id": "node/6567188385"
+    }
+  ]
+}

@@ -12,9 +12,9 @@ export class ToolbarController extends Controller {
         super();
 
         Controller.rel = 'content';
-        Controller.target = 'environment';
+        Controller.target = 'tourism';
 
         this.dock = $(`[data-rel="${Controller.rel}"][data-target="${Controller.target}"]`);
-        this.viewSrc = 'environment-loader';
+        this.viewSrc = 'leaflet-loader';
     }
 }

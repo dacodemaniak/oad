@@ -10,6 +10,7 @@ import * as $ from 'jquery';
 import './scss/main.scss';
 import { Route } from './core/modules/router/route';
 import { EnvironmentModule } from './modules/environment/environment.module';
+import { TourismModule } from './modules/tourism/tourism.module';
 
 /**
  * @author Laura Jannot - Feb 2020 - laura.jeannot@gmail.com
@@ -45,6 +46,9 @@ export class Main {
             )
             .add(
                 new Route('security', SecurityModule)
+            )
+            .add(
+                new Route('tourism', TourismModule)
             );
 
         loader.dismiss();
