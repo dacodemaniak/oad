@@ -8,66 +8,37 @@ import 'bootstrap';
 import './../../../../scss/chart.scss';
 
 export class ChartsController extends Controller {
-    private oiGraph: ChartService = new ChartService();
-    private radarChart: ChartService = new ChartService();
+    private tourismGraph: ChartService = new ChartService();
 
     public constructor() {
         super();
 
         Controller.rel = 'content';
-        Controller.target = 'environment';
+        Controller.target = 'tourism';
 
         this.dock = $(`[data-rel="${Controller.rel}"][data-target="${Controller.target}"]`);
-        this.viewSrc = 'charts';
+        this.viewSrc = 'tourism-chart';
 
         // Sets oiGraph chart
-        this.oiGraph.HTMLElement = 'chantiers-orpaillage-illegal';
-        this.oiGraph
-            .addLabel('Plantes et Fleurs')
-            .addLabel('Arbres')
-            .addLabel('Poissons')
-            .addLabel('Oiseaux')
-            .addLabel('Reptiles')
-            .addLabel('Amphibiens')
-            .addLabel('Mammifères');
-        this.oiGraph.addDataSet(
+        this.tourismGraph.HTMLElement = 'tourism--entrance';
+        this.tourismGraph
+            .addLabel('1990')
+            .addLabel('2000')
+            .addLabel('2005')
+            .addLabel('2010')
+            .addLabel('2015')
+            .addLabel('2018');
+        this.tourismGraph.addDataSet(
             {
                 label: 'Guyane',
-                data: [5000, 1200, 500, 700, 160, 65, 180],
+                data: [76000, 105000, 117000, 152000, 198000, 247105],
                 backgroundColor: ['rgba(8, 244, 4, .8)']
             }
         ).addDataSet(
             {
                 label: 'Costa Rica',
-                data: [10000, 1800, 600, 870, 220, 160, 231],
+                data: [435000, 1088000, 1679000, 2100000, 2660000, 2960000],
                 backgroundColor: ['rgba(4, 99, 244, .8)']
-            }            
-        );
-
-        // Sets radar chart
-        this.radarChart.HTMLElement = 'radar-chart';
-        this.radarChart.type = 'radar';
-        this.radarChart
-            .addLabel('% du territoire d\'espace protégé')
-            .addLabel('La chasse')
-            .addLabel('L\'orpaillage')
-            .addLabel('% du territoire touché par la déforestation');
-        this.radarChart.addDataSet(
-            {
-                label: 'Guyane',
-                backgroundColor: 'rgba(8, 244, 4, .8)',
-                data: [
-                    5, 0, 0, -1
-                ]
-            }
-        )
-        .addDataSet(
-            {
-                backgroundColor: 'rgba(4, 99, 244, .8)',
-                label: 'Costa Rica',
-                data: [
-                    3, 5, 5, -1
-                ]
             }            
         );
         
@@ -76,8 +47,7 @@ export class ChartsController extends Controller {
     public show(): Promise<void> {
         return new Promise<void>((resolve) => {
             super.show().then(() => {
-                this.oiGraph.draw();
-                this.radarChart.draw();
+                this.tourismGraph.draw();
                 resolve();
             })
         });

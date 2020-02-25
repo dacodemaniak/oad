@@ -10,10 +10,10 @@ import { FooterController } from '../../shared/controllers/footer/footer-control
 
 export class TourismModule extends Module implements IModule {
     private controllers: any = {
-        menu: new MenuController(),
-        footer: new FooterController(),
         toolbar: new ToolbarController(),
         protectedSpaces: new ProtectedSpacesController(),
+        menu: new MenuController(),
+        footer: new FooterController(),
         charts: new ChartsController(),
         bilan: new BilanController()
         

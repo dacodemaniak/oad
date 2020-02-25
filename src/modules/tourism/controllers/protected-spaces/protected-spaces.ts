@@ -58,7 +58,7 @@ export class ProtectedSpacesController extends Controller {
     }
 
     private _setHandlers(): void {
-        $('#environment').on(
+        $('#tourism').on(
             'click',
             '.dropdown-item',
             (event: any): void => {
@@ -73,7 +73,7 @@ export class ProtectedSpacesController extends Controller {
         const element: JQuery = $(event.target);
 
         // Change span title
-        $('span.title').html(element.attr('data-title'));
+        $('#tourism #layoutLoader').html(element.attr('data-title'));
 
         // Check if data-switch
         if (element.attr('data-switch') !== undefined) {
@@ -84,7 +84,7 @@ export class ProtectedSpacesController extends Controller {
             $('.infography').removeClass('hidden');
 
         } else {
-            $('.infography').addClass('hidden');
+            //$('.infography').addClass('hidden');
             
             const geoFileRoot: string = element.attr('data-rel');
 
@@ -104,6 +104,12 @@ export class ProtectedSpacesController extends Controller {
             $('.leaflet').removeClass('hidden');
 
             this.leafletC.show();
+
+            // Add popup if ever geoFileRoot is equal to espace_naturel
+            if (geoFileRoot === 'espace_naturel-') {
+                this.leafletC.addPopup('Les données cartographiques ne sont pas disponibles');
+            }
+
             this.leafletG.show();
         }
     }
