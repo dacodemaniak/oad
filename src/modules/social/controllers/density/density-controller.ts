@@ -108,10 +108,7 @@ export class DensityController extends Controller {
             'click',
             '#guyane-population-details',
             (event: any): void => {
-                event.stopPropagation();
-                console.log('Toggle details...');
                 const populationDetails: JQuery = $('#population-details');
-                console.log(`details was : ${populationDetails.hasClass('hidden') ? 'shown' : 'hidden'}`);
                 const content: string = populationDetails.hasClass('hidden') ? '/\\' : '\\/';
                 $(event.target).text(content);
                 populationDetails.toggleClass('hidden');
