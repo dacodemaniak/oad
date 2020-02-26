@@ -24,50 +24,53 @@ export class DensityController extends Controller {
             super.show().then(() => {
 
                 // Animate SVG from JSON datas
-                this._animateSVG();
-                
-                // Sets event handlers...
-                this._setHandlers();
-                console.log('Resolving population');
-                resolve();
+                this._animateSVG().then(() => {
+                    // Sets event handlers...
+                    this._setHandlers();
+                    console.log('Resolving population');
+                    resolve();
+                });
             })
         });
     }
 
-    private _animateSVG() {
-        const jsonFile: string = './assets/geojson/density-guyane.json';
+    private _animateSVG(): Promise<any> {
+        return new Promise<any>((resolve) => {
+            const jsonFile: string = './assets/geojson/density-guyane.json';
 
-        let jsonDatas: any[] = [];
-
-        $.get(jsonFile, (datas) => {
-            datas.forEach((data: any, index: number) => {
-                // Push datas
-                jsonDatas.push([
-                    data.numerpic,
-                    data.population,
-                    data.nom
-                ]);
-
-                // Get the ID of area
-                const areaId: JQuery = $('#' + data.numerpic);
-
-                // Load animations over areaId according population number
-                if (data.population < 6000) {
-                    this._fill(areaId, jsonDatas, '#d3e8d9');
-                }
-                if (data.population > 6001 && data.population < 40000) {
-                    this._fill(areaId, jsonDatas, '#93e6a9');
-                }
-                if (data.population > 40001 && data.population < 80000) {
-                    this._fill(areaId, jsonDatas, '#48a160');
-                }
-                if (data.population > 80001 && data.population < 90000) {
-                    this._fill(areaId, jsonDatas, '#5eeb7c');
-                }
-                if (data.population > 90001) {
-                    this._fill(areaId, jsonDatas, '#3e854e');
-                }                     
-            })
+            let jsonDatas: any[] = [];
+    
+            $.get(jsonFile, (datas) => {
+                datas.forEach((data: any, index: number) => {
+                    // Push datas
+                    jsonDatas.push([
+                        data.numerpic,
+                        data.population,
+                        data.nom
+                    ]);
+    
+                    // Get the ID of area
+                    const areaId: JQuery = $('#' + data.numerpic);
+    
+                    // Load animations over areaId according population number
+                    if (data.population < 6000) {
+                        this._fill(areaId, jsonDatas, '#d3e8d9');
+                    }
+                    if (data.population > 6001 && data.population < 40000) {
+                        this._fill(areaId, jsonDatas, '#93e6a9');
+                    }
+                    if (data.population > 40001 && data.population < 80000) {
+                        this._fill(areaId, jsonDatas, '#48a160');
+                    }
+                    if (data.population > 80001 && data.population < 90000) {
+                        this._fill(areaId, jsonDatas, '#5eeb7c');
+                    }
+                    if (data.population > 90001) {
+                        this._fill(areaId, jsonDatas, '#3e854e');
+                    }                     
+                })
+            });
+            resolve();
         });
     }
 

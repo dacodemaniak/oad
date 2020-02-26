@@ -10,15 +10,16 @@ import './../../scss/main.scss';
 
 export class SocialModule extends Module implements IModule {
     private controllers: any = {
-        menu: new MenuController(),
-        footer: new FooterController(),
         density: new DensityController(),
+        menu: new MenuController(),
         charts: new ChartsController(),
         bilan: new BilanController(),
+        footer: new FooterController(),
     };    
     
     public constructor(...args: any[]) {
         super();
+
         let promise: Promise<void>[] = [];
 
         for(let controller in this.controllers) {
