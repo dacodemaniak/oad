@@ -45,9 +45,9 @@ export class StatesController extends Controller {
         this.leafletG.layerZoom = 7;
         this.leafletG.jsonFile = 'contour_dep-g';
         this.leafletG.setStyle({
-            color: '#FECA01',
+            color: '#DF0118',
             weight: 2.5,
-            fillColor: '#FECA01',
+            fillColor: '#DF0118',
             fill0pacity: 1
         }).addPopup('<strong>Guyane</strong><br>Indice de criminalité : <strong>109,3</strong>');
 
@@ -57,9 +57,9 @@ export class StatesController extends Controller {
         this.leafletC.layerZoom = 7;
         this.leafletC.jsonFile = 'contour_dep-c';
         this.leafletC.setStyle({
-            color: '#DF0118',
+            color: '#FECA01',
             weight: 2.5,
-            fillColor: '#DF0118',
+            fillColor: '#FECA01',
             fill0pacity: 1
         }).addPopup('<strong>Costa Rica</strong><br>Indice de criminalité : <strong>56,33</strong>');
 
