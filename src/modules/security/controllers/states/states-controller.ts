@@ -44,12 +44,24 @@ export class StatesController extends Controller {
         this.leafletG.setGeoCenter(this.geoCenterGuyana.lat, this.geoCenterGuyana.lng);
         this.leafletG.layerZoom = 7;
         this.leafletG.jsonFile = 'contour_dep-g';
+        this.leafletG.setStyle({
+            color: '#FECA01',
+            weight: 2.5,
+            fillColor: '#FECA01',
+            fill0pacity: 1
+        }).addPopup('<strong>Guyane</strong><br>Indice de criminalité : <strong>109,3</strong>');
 
         // Build leaflet layout for Costa Rica
         this.leafletC = new LeafletService('criminality-cr');
         this.leafletC.setGeoCenter(this.geoCenterCostaRica.lat, this.geoCenterCostaRica.lng);
         this.leafletC.layerZoom = 7;
         this.leafletC.jsonFile = 'contour_dep-c';
+        this.leafletC.setStyle({
+            color: '#DF0118',
+            weight: 2.5,
+            fillColor: '#DF0118',
+            fill0pacity: 1
+        }).addPopup('<strong>Costa Rica</strong><br>Indice de criminalité : <strong>56,33</strong>');
 
         // Build vulcans leaflet
         this.vulcanCr = new LeafletService('volcans-cr');

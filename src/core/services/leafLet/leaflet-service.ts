@@ -21,6 +21,10 @@ export class LeafletService {
 
     private popup: any;
 
+    private style: any = {
+        color: '#000', weight: 2.5, fillColor: '#000', fill0pacity: 1
+    };
+
     public constructor(HTMLMapElement: string) {
         this.HTMLMapElement = HTMLMapElement;
     }
@@ -33,6 +37,11 @@ export class LeafletService {
         this.geoCenter.lat = lat;
         this.geoCenter.lng = lng;
 
+        return this;
+    }
+
+    public setStyle(style: any): LeafletService {
+        this.style = style;
         return this;
     }
 
@@ -55,7 +64,10 @@ export class LeafletService {
                 this.layer = new L.GeoJSON(
                     geoData,
                     {
-                        style: (feature: any): any => {},
+                        style: (feature: any): any => {
+                            console.log(`Apply ${JSON.stringify(this.style)}`);
+                            return this.style
+                        },
                         onEachFeature: (feature: Feature<Geometry, any>, layer: L.Layer): void => {
 
                         },
