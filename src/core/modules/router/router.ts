@@ -25,7 +25,7 @@ export class Router {
         return this;
     }
 
-    private getRoute(event: any): void {
+    public getRoute(event: any): void {
         console.log('hash ' + location.hash);
 
         const url = location.hash.slice(1) || '/';
