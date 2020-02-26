@@ -25,10 +25,10 @@ export class DensityController extends Controller {
 
                 // Animate SVG from JSON datas
                 this._animateSVG().then(() => {
-                    // Sets event handlers...
-                    this._setHandlers();
                     console.log('Resolving population');
                     resolve();
+                    // Sets event handlers...
+                    this._setHandlers();
                 });
             })
         });
@@ -104,16 +104,18 @@ export class DensityController extends Controller {
     }
 
     private _setHandlers(): void {
-        
-        
-        $('#' + Controller.target).on(
+        $('#main-app').on(
             'click',
             '#guyane-population-details',
             (event: any): void => {
+                event.stopPropagation();
+                console.log('Toggle details...');
                 const populationDetails: JQuery = $('#population-details');
+                console.log(`details was : ${populationDetails.hasClass('hidden') ? 'shown' : 'hidden'}`);
                 const content: string = populationDetails.hasClass('hidden') ? '/\\' : '\\/';
                 $(event.target).text(content);
                 populationDetails.toggleClass('hidden');
+                
             }
         )
     }
