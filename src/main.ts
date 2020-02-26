@@ -22,7 +22,7 @@ export class Main {
     private controllers: any = {
     };
 
-    public constructor() {
+    public constructor(event: any) {
         
         console.log('OAD app is running!');
         
@@ -32,7 +32,8 @@ export class Main {
         for (let controller in this.controllers) {
             this.controllers[controller].show();
         }
-
+        console.log('Sets routes and load current route');
+        
         // Instanciate the router
         const router: Router = new Router();
         router
@@ -53,7 +54,7 @@ export class Main {
             )
             .add(
                 new Route('bilan', BilanModule)
-            );
+            ).getRoute(event);
 
         loader.dismiss();
     }
@@ -62,6 +63,6 @@ export class Main {
 /**
  * Application bootstraping
  */
-$(document).ready(() => {
-    const main: Main = new Main();
+$(document).ready((event: any) => {
+    const main: Main = new Main(event);
 });
