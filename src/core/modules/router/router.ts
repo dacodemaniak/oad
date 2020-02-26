@@ -1,6 +1,14 @@
 import { IModule } from './../module-interface';
 import { ClassFactory } from './../../services/factory/class-factory';
 import { IService } from '../../services/service-interface';
+
+import { SecurityModule } from './../../../modules/security/security.module';
+import { HomeModule } from './../../../modules/home/home.module';
+import { SocialModule } from './../../../modules/social/social.module';
+import { EnvironmentModule } from './../../../modules/environment/environment.module';
+import { TourismModule } from './../../../modules/tourism/tourism.module';
+import { BilanModule } from './../../../modules/bilan/bilan.module';
+
 import * as $ from 'jquery';
 
 import { Route } from './route';
@@ -13,6 +21,26 @@ export class Router {
 
         let router = this;
 
+       // Instanciate the router
+       router
+       .add(
+           new Route('/', HomeModule)
+       )
+       .add(
+           new Route('environnement', EnvironmentModule)
+       )
+       .add(
+           new Route('social', SocialModule)
+       )
+       .add(
+           new Route('security', SecurityModule)
+       )
+       .add(
+           new Route('tourism', TourismModule)
+       )
+       .add(
+           new Route('bilan', BilanModule)
+       );
         // Définit le listener sur les routes
         $(window).on(
             'load hashchange',
